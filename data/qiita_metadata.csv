@@ -1,0 +1,534 @@
+SampleID,im_ever_abxs_adhoc,fp_long_bin,gestational_age_birth,sample_type,infant_timepoint,infant_age_days,family_id,part_id,sex,AssetIndexQuintile,mode_delivery,maternal_antibiotics,mother_age_years,birthweight,gestational_age_weeks,hmo_Secretor,drink_water_safe,water_filter,host_subject_id
+100328,yes,Not EBF,273,feces,180,193,10286,102861,male,Quintile 4,vaginal,postpartum only,18,3105,39,1,nothing,0,102861
+100334,yes,Not EBF,271,feces,180,180,10106,101061,male,Quintile 4,vaginal,both intrapartum and postpartum,22,2385,38.714287,0,filter,1,101061
+101270,no,Not EBF,270,feces,180,180,11775,117751,female,Quintile 4,vaginal,postpartum only,34,2815,38.57143,1,boil_strain,0,117751
+101671,yes,Not EBF,280,feces,180,182,10395,103951,male,Quintile 5,csection,postpartum only,32,2795,40,1,boil_strain,0,103951
+102273,yes,Not EBF,280,feces,120,106,11459,114591,female,Quintile 4,csection,both intrapartum and postpartum,21,2400,40,0,nothing,0,114591
+104253,no,EBF,273,feces,180,180,10684,106841,female,Quintile 4,csection,postpartum only,23,2845,39,1,boil_filter_strain,1,106841
+104557,no,EBF,266,feces,90,90,10077,100771,female,Quintile 5,csection,postpartum only,19,2680,38,1,boil_filter_strain,1,100771
+104580,no,Not EBF,252,feces,90,101,11196,111961,female,Quintile 3,vaginal,postpartum only,28,2430,36,1,filter,1,111961
+105424,yes,Not EBF,257,feces,180,191,11090,110901,female,Quintile 2,vaginal,postpartum only,26,3500,36.714287,1,nothing,0,110901
+105761,no,Not EBF,285,feces,180,199,10374,103741,female,Quintile 2,csection,both intrapartum and postpartum,18,2070,40.714287,0,boil,0,103741
+105971,no,Not EBF,278,feces,120,115,10058,100581,male,Quintile 5,vaginal,postpartum only,24,3250,39.714287,1,boil,0,100581
+105993,no,Not EBF,270,feces,120,108,10268,102681,male,Quintile 4,csection,postpartum only,24,3190,38.57143,1,boil_filter,1,102681
+106107,no,EBF,267,feces,180,180,10727,107271,male,Quintile 2,vaginal,postpartum only,30,2615,38.142857,0,boil_strain,0,107271
+111282,yes,Not EBF,266,feces,180,180,11438,114381,male,Quintile 4,csection,postpartum only,20,3265,38,NA,boil,0,114381
+113485,yes,Not EBF,269,feces,180,180,10455,104551,female,Quintile 5,csection,postpartum only,28,2665,38.42857,1,boil_strain,0,104551
+11996,yes,Not EBF,292,feces,30,28,11434,114341,female,Quintile 1,vaginal,both intrapartum and postpartum,26,3150,41.714287,0,boil_strain,0,114341
+124307,yes,Not EBF,265,feces,180,185,12258,122581,female,Quintile 4,csection,postpartum only,20,3840,37.857143,0,boil_strain,0,122581
+131401,no,EBF,271,feces,180,189,11112,111121,female,Quintile 1,csection,postpartum only,30,2620,38.714287,1,boil,0,111121
+133322,no,Not EBF,275,feces,180,192,10690,106901,female,Quintile 3,csection,both intrapartum and postpartum,30,3500,39.285713,1,nothing,0,106901
+133390,no,Not EBF,287,feces,180,204,11705,117051,female,Quintile 5,vaginal,postpartum only,18,2980,41,1,boil_filter_strain,1,117051
+145477,no,Not EBF,285,feces,180,247,12323,123231,female,Quintile 4,vaginal,postpartum only,35,3840,40.714287,1,nothing,0,123231
+20924,no,Not EBF,266,feces,0,1,10428,104281,male,Quintile 1,vaginal,postpartum only,27,2805,38,1,boil_filter,1,104281
+22843,no,EBF,278,feces,0,0,10291,102911,female,Quintile 5,vaginal,postpartum only,27,3790,39.714287,0,nothing,0,102911
+23149,no,EBF,264,feces,0,1,12347,123471,female,Quintile 4,vaginal,postpartum only,24,2265,37.714287,0,boil,0,123471
+23153,no,EBF,285,feces,15,13,11500,115001,female,Quintile 5,csection,both intrapartum and postpartum,26,2520,40.714287,1,nothing,0,115001
+23162,no,Not EBF,272,feces,0,1,10163,101631,male,Quintile 3,vaginal,postpartum only,19,2753,38.857143,1,nothing,0,101631
+23208,no,EBF,279,feces,0,0,10437,104371,female,Quintile 5,vaginal,both intrapartum and postpartum,21,2550,39.857143,1,nothing,0,104371
+23209,no,EBF,275,feces,0,4,10836,108361,female,Quintile 1,vaginal,postpartum only,27,3190,39.285713,0,nothing,0,108361
+23383,NA,NA,278,milk,0,3,10291,102911,female,Quintile 5,vaginal,postpartum only,27,3790,39.714287,0,nothing,0,102910
+23410,NA,NA,285,milk,15,14,11500,115001,female,Quintile 5,csection,both intrapartum and postpartum,26,2520,40.714287,1,nothing,0,115000
+23415,no,EBF,278,feces,0,3,10291,102911,female,Quintile 5,vaginal,postpartum only,27,3790,39.714287,0,nothing,0,102911
+23426,NA,NA,275,milk,15,14,10836,108361,female,Quintile 1,vaginal,postpartum only,27,3190,39.285713,0,nothing,0,108360
+23448,no,Not EBF,272,feces,0,4,10163,101631,male,Quintile 3,vaginal,postpartum only,19,2753,38.857143,1,nothing,0,101631
+23453,no,EBF,275,feces,0,7,10836,108361,female,Quintile 1,vaginal,postpartum only,27,3190,39.285713,0,nothing,0,108361
+23471,NA,NA,304,milk,0,1,11455,114551,female,Quintile 5,vaginal,both intrapartum and postpartum,23,3000,43.42857,NA,nothing,0,114550
+23486,NA,NA,292,milk,0,0,11434,114341,female,Quintile 1,vaginal,both intrapartum and postpartum,26,3150,41.714287,0,boil_strain,0,114340
+23487,NA,NA,273,milk,0,1,10286,102861,male,Quintile 4,vaginal,postpartum only,18,3105,39,1,nothing,0,102860
+23528,no,EBF,278,feces,0,6,10291,102911,female,Quintile 5,vaginal,postpartum only,27,3790,39.714287,0,nothing,0,102911
+23534,yes,Not EBF,272,feces,15,14,10163,101631,male,Quintile 3,vaginal,postpartum only,19,2753,38.857143,1,nothing,0,101631
+23539,yes,Not EBF,272,feces,30,21,10163,101631,male,Quintile 3,vaginal,postpartum only,19,2753,38.857143,1,nothing,0,101631
+23544,no,EBF,273,feces,0,0,10286,102861,male,Quintile 4,vaginal,postpartum only,18,3105,39,1,nothing,0,102861
+23792,yes,Not EBF,273,feces,30,21,10286,102861,male,Quintile 4,vaginal,postpartum only,18,3105,39,1,nothing,0,102861
+23802,no,EBF,292,feces,0,1,11434,114341,female,Quintile 1,vaginal,both intrapartum and postpartum,26,3150,41.714287,0,boil_strain,0,114341
+23810,no,Not EBF,295,feces,15,10,11365,113651,male,Quintile 1,vaginal,postpartum only,34,2915,42.142857,1,nothing,0,113651
+23869,no,Not EBF,264,feces,0,6,12347,123471,female,Quintile 4,vaginal,postpartum only,24,2265,37.714287,0,boil,0,123471
+23886,no,EBF,304,feces,15,10,11455,114551,female,Quintile 5,vaginal,both intrapartum and postpartum,23,3000,43.42857,NA,nothing,0,114551
+23900,no,Not EBF,264,feces,30,35,10251,102511,male,Quintile 5,vaginal,postpartum only,18,2460,37.714287,0,boil_strain,0,102511
+23901,no,EBF,275,feces,15,14,10836,108361,female,Quintile 1,vaginal,postpartum only,27,3190,39.285713,0,nothing,0,108361
+23902,no,EBF,264,feces,0,1,10251,102511,male,Quintile 5,vaginal,postpartum only,18,2460,37.714287,0,boil_strain,0,102511
+23917,yes,EBF,278,feces,30,31,10291,102911,female,Quintile 5,vaginal,postpartum only,27,3790,39.714287,0,nothing,0,102911
+23958,NA,NA,295,milk,15,18,11365,113651,male,Quintile 1,vaginal,postpartum only,34,2915,42.142857,1,nothing,0,113650
+23960,NA,NA,271,milk,0,3,10106,101061,male,Quintile 4,vaginal,both intrapartum and postpartum,22,2385,38.714287,0,filter,1,101060
+28112,NA,NA,285,blood,0,1,11500,115001,female,Quintile 5,csection,both intrapartum and postpartum,26,2520,40.714287,1,nothing,0,115001
+28149,NA,NA,295,blood,0,1,11365,113651,male,Quintile 1,vaginal,postpartum only,34,2915,42.142857,1,nothing,0,113651
+28194,NA,NA,264,blood,0,1,12347,123471,female,Quintile 4,vaginal,postpartum only,24,2265,37.714287,0,boil,0,123471
+28282,NA,NA,304,blood,0,1,11455,114551,female,Quintile 5,vaginal,both intrapartum and postpartum,23,3000,43.42857,NA,nothing,0,114551
+28360,NA,NA,271,blood,0,1,10106,101061,male,Quintile 4,vaginal,both intrapartum and postpartum,22,2385,38.714287,0,filter,1,101061
+28423,NA,NA,270,blood,0,1,11775,117751,female,Quintile 4,vaginal,postpartum only,34,2815,38.57143,1,boil_strain,0,117751
+28449,NA,NA,273,blood,0,1,10286,102861,male,Quintile 4,vaginal,postpartum only,18,3105,39,1,nothing,0,102861
+28696,no,EBF,278,feces,15,10,10291,102911,female,Quintile 5,vaginal,postpartum only,27,3790,39.714287,0,nothing,0,102911
+29987,no,EBF,270,feces,0,2,12179,121791,male,Quintile 4,csection,both intrapartum and postpartum,25,3240,38.57143,1,nothing,0,121791
+30074,NA,NA,270,blood,0,2,12179,121791,male,Quintile 4,csection,both intrapartum and postpartum,25,3240,38.57143,1,nothing,0,121791
+30096,NA,NA,266,blood,0,1,12085,120851,male,Quintile 4,csection,both intrapartum and postpartum,24,3000,38,1,boil,0,120851
+30106,NA,NA,273,blood,0,1,10571,105711,female,Quintile 5,csection,postpartum only,30,3140,39,1,boil_filter,1,105711
+30122,NA,NA,286,blood,0,1,10228,102281,female,Quintile 1,vaginal,postpartum only,18,3060,40.857143,0,boil,0,102281
+30126,NA,NA,257,blood,0,1,11090,110901,female,Quintile 2,vaginal,postpartum only,26,3500,36.714287,1,nothing,0,110901
+30188,NA,NA,273,blood,0,3,10734,107341,male,Quintile 5,vaginal,postpartum only,28,4000,39,0,boil_filter,1,107341
+30206,NA,NA,273,blood,0,1,10684,106841,female,Quintile 4,csection,postpartum only,23,2845,39,1,boil_filter_strain,1,106841
+30281,NA,NA,266,blood,0,2,10137,101371,female,Quintile 3,vaginal,postpartum only,25,3360,38,0,boil_filter,1,101371
+30290,NA,NA,286,blood,0,1,10314,103141,male,Quintile 2,csection,postpartum only,20,2805,40.857143,1,nothing,0,103141
+30408,NA,NA,285,blood,0,1,12323,123231,female,Quintile 4,vaginal,postpartum only,35,3840,40.714287,1,nothing,0,123231
+30441,NA,NA,269,blood,0,1,11199,111991,male,Quintile 5,vaginal,postpartum only,28,3765,39.57143,1,nothing,0,111991
+30450,NA,NA,280,blood,0,1,10395,103951,male,Quintile 5,csection,postpartum only,32,2795,40,1,boil_strain,0,103951
+30454,NA,NA,259,blood,0,1,11187,111871,male,Quintile 5,csection,postpartum only,32,2930,37,1,filter,1,111871
+30524,NA,NA,291,blood,0,2,12038,120381,female,Quintile 4,csection,postpartum only,30,2210,36.714287,0,boil_strain,0,120381
+30529,NA,NA,266,blood,0,2,11438,114381,male,Quintile 4,csection,postpartum only,20,3265,38,NA,boil,0,114381
+30535,NA,NA,287,blood,0,1,11705,117051,female,Quintile 5,vaginal,postpartum only,18,2980,41,1,boil_filter_strain,1,117051
+30547,NA,NA,265,blood,0,1,12258,122581,female,Quintile 4,csection,postpartum only,20,3840,37.857143,0,boil_strain,0,122581
+30556,NA,NA,278,blood,0,1,10058,100581,male,Quintile 5,vaginal,postpartum only,24,3250,39.714287,1,boil,0,100581
+30572,NA,NA,282,blood,0,1,11339,113391,female,Quintile 2,vaginal,postpartum only,23,3135,40.285713,1,filter,1,113391
+30579,NA,NA,252,blood,0,1,11196,111961,female,Quintile 3,vaginal,postpartum only,28,2430,36,1,filter,1,111961
+30648,NA,NA,266,blood,0,2,10077,100771,female,Quintile 5,csection,postpartum only,19,2680,38,1,boil_filter_strain,1,100771
+30652,NA,NA,275,blood,0,2,10690,106901,female,Quintile 3,csection,both intrapartum and postpartum,30,3500,39.285713,1,nothing,0,106901
+30660,NA,NA,271,blood,0,2,11112,111121,female,Quintile 1,csection,postpartum only,30,2620,38.714287,1,boil,0,111121
+30697,NA,NA,270,blood,0,2,10268,102681,male,Quintile 4,csection,postpartum only,24,3190,38.57143,1,boil_filter,1,102681
+31863,no,Not EBF,266,feces,15,10,10428,104281,male,Quintile 1,vaginal,postpartum only,27,2805,38,1,boil_filter,1,104281
+31936,no,EBF,286,feces,0,1,10228,102281,female,Quintile 1,vaginal,postpartum only,18,3060,40.857143,0,boil,0,102281
+31950,no,EBF,266,feces,0,2,12085,120851,male,Quintile 4,csection,both intrapartum and postpartum,24,3000,38,1,boil,0,120851
+31962,NA,NA,270,milk,0,2,12179,121791,male,Quintile 4,csection,both intrapartum and postpartum,25,3240,38.57143,1,nothing,0,121790
+32136,NA,NA,266,milk,15,10,10428,104281,male,Quintile 1,vaginal,postpartum only,27,2805,38,1,boil_filter,1,104280
+32189,no,EBF,273,feces,0,1,10571,105711,female,Quintile 5,csection,postpartum only,30,3140,39,1,boil_filter,1,105711
+32204,no,EBF,280,feces,0,2,11494,114941,female,Quintile 2,csection,postpartum only,30,2850,40,1,boil,0,114941
+32208,no,EBF,257,feces,0,0,11090,110901,female,Quintile 2,vaginal,postpartum only,26,3500,36.714287,1,nothing,0,110901
+32228,no,EBF,270,feces,0,4,12179,121791,male,Quintile 4,csection,both intrapartum and postpartum,25,3240,38.57143,1,nothing,0,121791
+32231,no,EBF,273,feces,0,1,12281,122811,female,Quintile 4,csection,both intrapartum and postpartum,28,2735,39,1,boil_strain,0,122811
+32311,no,EBF,266,feces,30,21,11040,110401,female,Quintile 2,csection,both intrapartum and postpartum,32,3100,38,1,boil,0,110401
+32326,no,Not EBF,266,feces,0,6,10428,104281,male,Quintile 1,vaginal,postpartum only,27,2805,38,1,boil_filter,1,104281
+32566,no,EBF,266,feces,0,2,11040,110401,female,Quintile 2,csection,both intrapartum and postpartum,32,3100,38,1,boil,0,110401
+32570,no,EBF,266,feces,0,7,12085,120851,male,Quintile 4,csection,both intrapartum and postpartum,24,3000,38,1,boil,0,120851
+32576,no,EBF,273,feces,0,7,12281,122811,female,Quintile 4,csection,both intrapartum and postpartum,28,2735,39,1,boil_strain,0,122811
+32577,no,EBF,294,feces,0,2,10521,105211,female,Quintile 4,vaginal,postpartum only,25,2615,42,1,nothing,0,105211
+32600,no,EBF,266,feces,0,5,12085,120851,male,Quintile 4,csection,both intrapartum and postpartum,24,3000,38,1,boil,0,120851
+32636,no,EBF,280,feces,15,10,11494,114941,female,Quintile 2,csection,postpartum only,30,2850,40,1,boil,0,114941
+32638,no,EBF,270,feces,15,10,12179,121791,male,Quintile 4,csection,both intrapartum and postpartum,25,3240,38.57143,1,nothing,0,121791
+32642,no,EBF,266,feces,15,14,10137,101371,female,Quintile 3,vaginal,postpartum only,25,3360,38,0,boil_filter,1,101371
+32796,no,EBF,270,feces,15,14,12179,121791,male,Quintile 4,csection,both intrapartum and postpartum,25,3240,38.57143,1,nothing,0,121791
+32820,no,Not EBF,255,feces,0,2,11547,115471,male,Quintile 2,csection,postpartum only,21,2750,36.42857,1,boil_strain,0,115471
+32821,no,EBF,286,feces,0,4,10228,102281,female,Quintile 1,vaginal,postpartum only,18,3060,40.857143,0,boil,0,102281
+32961,NA,NA,269,milk,0,2,10681,106811,female,Quintile 5,vaginal,postpartum only,30,2680,38.42857,0,filter,1,106810
+33002,no,EBF,280,feces,15,14,11494,114941,female,Quintile 2,csection,postpartum only,30,2850,40,1,boil,0,114941
+33005,no,EBF,257,feces,15,10,11090,110901,female,Quintile 2,vaginal,postpartum only,26,3500,36.714287,1,nothing,0,110901
+33008,no,EBF,273,feces,0,1,10734,107341,male,Quintile 5,vaginal,postpartum only,28,4000,39,0,boil_filter,1,107341
+33016,no,EBF,271,feces,0,6,11112,111121,female,Quintile 1,csection,postpartum only,30,2620,38.714287,1,boil,0,111121
+33019,no,EBF,257,feces,0,3,11090,110901,female,Quintile 2,vaginal,postpartum only,26,3500,36.714287,1,nothing,0,110901
+33022,no,EBF,294,feces,0,7,10521,105211,female,Quintile 4,vaginal,postpartum only,25,2615,42,1,nothing,0,105211
+33028,no,EBF,273,feces,15,10,12281,122811,female,Quintile 4,csection,both intrapartum and postpartum,28,2735,39,1,boil_strain,0,122811
+33030,no,EBF,269,feces,0,3,10681,106811,female,Quintile 5,vaginal,postpartum only,30,2680,38.42857,0,filter,1,106811
+33037,no,EBF,273,feces,0,2,10684,106841,female,Quintile 4,csection,postpartum only,23,2845,39,1,boil_filter_strain,1,106841
+33133,NA,NA,273,milk,0,1,11413,114131,female,Quintile 3,csection,postpartum only,35,2833,39,1,boil,0,114130
+33134,NA,NA,273,milk,0,1,10734,107341,male,Quintile 5,vaginal,postpartum only,28,4000,39,0,boil_filter,1,107340
+33183,no,EBF,273,feces,15,9,10571,105711,female,Quintile 5,csection,postpartum only,30,3140,39,1,boil_filter,1,105711
+33194,no,EBF,266,feces,0,4,11040,110401,female,Quintile 2,csection,both intrapartum and postpartum,32,3100,38,1,boil,0,110401
+33326,no,EBF,246,feces,0,7,10436,104361,female,Quintile 4,csection,postpartum only,30,2640,35.142857,1,boil,0,104361
+33327,no,Not EBF,255,feces,0,5,11547,115471,male,Quintile 2,csection,postpartum only,21,2750,36.42857,1,boil_strain,0,115471
+33331,no,EBF,286,feces,0,7,10228,102281,female,Quintile 1,vaginal,postpartum only,18,3060,40.857143,0,boil,0,102281
+33333,no,Not EBF,273,feces,0,4,11413,114131,female,Quintile 3,csection,postpartum only,35,2833,39,1,boil,0,114131
+33335,no,EBF,257,feces,0,6,11090,110901,female,Quintile 2,vaginal,postpartum only,26,3500,36.714287,1,nothing,0,110901
+33338,no,Not EBF,273,feces,0,2,11413,114131,female,Quintile 3,csection,postpartum only,35,2833,39,1,boil,0,114131
+33409,no,EBF,273,feces,15,14,12281,122811,female,Quintile 4,csection,both intrapartum and postpartum,28,2735,39,1,boil_strain,0,122811
+33425,no,EBF,266,feces,15,14,12085,120851,male,Quintile 4,csection,both intrapartum and postpartum,24,3000,38,1,boil,0,120851
+33431,yes,Not EBF,266,feces,30,21,10428,104281,male,Quintile 1,vaginal,postpartum only,27,2805,38,1,boil_filter,1,104281
+33452,no,EBF,266,feces,15,16,10077,100771,female,Quintile 5,csection,postpartum only,19,2680,38,1,boil_filter_strain,1,100771
+33616,NA,NA,246,milk,0,4,10436,104361,female,Quintile 4,csection,postpartum only,30,2640,35.142857,1,boil,0,104360
+33643,no,EBF,266,feces,15,10,11040,110401,female,Quintile 2,csection,both intrapartum and postpartum,32,3100,38,1,boil,0,110401
+33646,no,EBF,273,feces,0,6,10734,107341,male,Quintile 5,vaginal,postpartum only,28,4000,39,0,boil_filter,1,107341
+33651,yes,EBF,269,feces,30,29,10681,106811,female,Quintile 5,vaginal,postpartum only,30,2680,38.42857,0,filter,1,106811
+33653,no,Not EBF,255,feces,15,8,11547,115471,male,Quintile 2,csection,postpartum only,21,2750,36.42857,1,boil_strain,0,115471
+33655,no,EBF,294,feces,15,11,10521,105211,female,Quintile 4,vaginal,postpartum only,25,2615,42,1,nothing,0,105211
+33661,no,EBF,286,feces,15,10,10228,102281,female,Quintile 1,vaginal,postpartum only,18,3060,40.857143,0,boil,0,102281
+33669,no,EBF,246,feces,15,9,10436,104361,female,Quintile 4,csection,postpartum only,30,2640,35.142857,1,boil,0,104361
+33724,NA,NA,286,milk,30,22,10228,102281,female,Quintile 1,vaginal,postpartum only,18,3060,40.857143,0,boil,0,102280
+33762,NA,NA,280,milk,30,21,11494,114941,female,Quintile 2,csection,postpartum only,30,2850,40,1,boil,0,114940
+33767,NA,NA,273,milk,15,15,10571,105711,female,Quintile 5,csection,postpartum only,30,3140,39,1,boil_filter,1,105710
+33808,no,EBF,273,feces,15,10,10734,107341,male,Quintile 5,vaginal,postpartum only,28,4000,39,0,boil_filter,1,107341
+33810,no,Not EBF,285,feces,0,6,10374,103741,female,Quintile 2,csection,both intrapartum and postpartum,18,2070,40.714287,0,boil,0,103741
+33812,yes,EBF,269,feces,30,21,10681,106811,female,Quintile 5,vaginal,postpartum only,30,2680,38.42857,0,filter,1,106811
+33815,no,EBF,246,feces,15,8,10436,104361,female,Quintile 4,csection,postpartum only,30,2640,35.142857,1,boil,0,104361
+33819,no,EBF,280,feces,30,21,11494,114941,female,Quintile 2,csection,postpartum only,30,2850,40,1,boil,0,114941
+33834,no,EBF,273,feces,0,7,10684,106841,female,Quintile 4,csection,postpartum only,23,2845,39,1,boil_filter_strain,1,106841
+33838,yes,EBF,269,feces,15,14,10681,106811,female,Quintile 5,vaginal,postpartum only,30,2680,38.42857,0,filter,1,106811
+33839,no,EBF,273,feces,0,5,10684,106841,female,Quintile 4,csection,postpartum only,23,2845,39,1,boil_filter_strain,1,106841
+33988,no,EBF,246,feces,15,14,10436,104361,female,Quintile 4,csection,postpartum only,30,2640,35.142857,1,boil,0,104361
+33995,no,EBF,273,feces,30,21,12281,122811,female,Quintile 4,csection,both intrapartum and postpartum,28,2735,39,1,boil_strain,0,122811
+38023,no,Not EBF,304,feces,30,35,11455,114551,female,Quintile 5,vaginal,both intrapartum and postpartum,23,3000,43.42857,NA,nothing,0,114551
+38032,yes,EBF,279,feces,60,60,10437,104371,female,Quintile 5,vaginal,both intrapartum and postpartum,21,2550,39.857143,1,nothing,0,104371
+38046,no,EBF,270,feces,30,41,10254,102541,male,Quintile 4,vaginal,postpartum only,20,2470,38.57143,1,nothing,0,102541
+38119,NA,NA,275,milk,60,56,10836,108361,female,Quintile 1,vaginal,postpartum only,27,3190,39.285713,0,nothing,0,108360
+38128,yes,EBF,279,feces,30,40,10437,104371,female,Quintile 5,vaginal,both intrapartum and postpartum,21,2550,39.857143,1,nothing,0,104371
+38196,no,Not EBF,280,feces,30,34,11959,119591,female,Quintile 5,vaginal,postpartum only,21,3040,40,1,filter,1,119591
+38204,no,EBF,280,feces,15,10,10395,103951,male,Quintile 5,csection,postpartum only,32,2795,40,1,boil_strain,0,103951
+38208,yes,Not EBF,292,feces,30,41,11434,114341,female,Quintile 1,vaginal,both intrapartum and postpartum,26,3150,41.714287,0,boil_strain,0,114341
+38281,NA,NA,280,milk,30,34,11959,119591,female,Quintile 5,vaginal,postpartum only,21,3040,40,1,filter,1,119590
+38303,NA,NA,295,milk,60,60,11365,113651,male,Quintile 1,vaginal,postpartum only,34,2915,42.142857,1,nothing,0,113650
+38416,no,Not EBF,270,feces,60,60,10254,102541,male,Quintile 4,vaginal,postpartum only,20,2470,38.57143,1,nothing,0,102541
+38539,NA,NA,279,milk,30,40,10437,104371,female,Quintile 5,vaginal,both intrapartum and postpartum,21,2550,39.857143,1,nothing,0,104370
+38594,no,Not EBF,270,feces,30,21,11775,117751,female,Quintile 4,vaginal,postpartum only,34,2815,38.57143,1,boil_strain,0,117751
+38776,no,EBF,264,feces,30,21,10251,102511,male,Quintile 5,vaginal,postpartum only,18,2460,37.714287,0,boil_strain,0,102511
+38785,no,EBF,270,feces,30,21,10254,102541,male,Quintile 4,vaginal,postpartum only,20,2470,38.57143,1,nothing,0,102541
+38788,no,Not EBF,271,feces,30,28,10106,101061,male,Quintile 4,vaginal,both intrapartum and postpartum,22,2385,38.714287,0,filter,1,101061
+38798,yes,Not EBF,292,feces,30,24,11434,114341,female,Quintile 1,vaginal,both intrapartum and postpartum,26,3150,41.714287,0,boil_strain,0,114341
+38801,no,Not EBF,304,feces,30,28,11455,114551,female,Quintile 5,vaginal,both intrapartum and postpartum,23,3000,43.42857,NA,nothing,0,114551
+38805,no,Not EBF,271,feces,30,21,10106,101061,male,Quintile 4,vaginal,both intrapartum and postpartum,22,2385,38.714287,0,filter,1,101061
+38815,no,EBF,279,feces,30,25,10437,104371,female,Quintile 5,vaginal,both intrapartum and postpartum,21,2550,39.857143,1,nothing,0,104371
+38825,no,Not EBF,280,feces,15,14,11959,119591,female,Quintile 5,vaginal,postpartum only,21,3040,40,1,filter,1,119591
+38830,yes,Not EBF,273,feces,30,35,10286,102861,male,Quintile 4,vaginal,postpartum only,18,3105,39,1,nothing,0,102861
+38840,no,Not EBF,295,feces,30,35,11365,113651,male,Quintile 1,vaginal,postpartum only,34,2915,42.142857,1,nothing,0,113651
+39074,no,EBF,264,feces,15,14,10251,102511,male,Quintile 5,vaginal,postpartum only,18,2460,37.714287,0,boil_strain,0,102511
+39079,yes,EBF,278,feces,30,35,10291,102911,female,Quintile 5,vaginal,postpartum only,27,3790,39.714287,0,nothing,0,102911
+39084,no,Not EBF,280,feces,30,21,11959,119591,female,Quintile 5,vaginal,postpartum only,21,3040,40,1,filter,1,119591
+39095,no,EBF,292,feces,15,14,11434,114341,female,Quintile 1,vaginal,both intrapartum and postpartum,26,3150,41.714287,0,boil_strain,0,114341
+39126,no,Not EBF,264,feces,30,35,12347,123471,female,Quintile 4,vaginal,postpartum only,24,2265,37.714287,0,boil,0,123471
+39132,no,EBF,280,feces,0,4,11959,119591,female,Quintile 5,vaginal,postpartum only,21,3040,40,1,filter,1,119591
+39138,yes,EBF,273,feces,15,14,10286,102861,male,Quintile 4,vaginal,postpartum only,18,3105,39,1,nothing,0,102861
+39216,NA,NA,272,milk,30,21,10163,101631,male,Quintile 3,vaginal,postpartum only,19,2753,38.857143,1,nothing,0,101630
+39301,no,EBF,270,feces,30,28,10254,102541,male,Quintile 4,vaginal,postpartum only,20,2470,38.57143,1,nothing,0,102541
+39348,NA,NA,264,milk,15,14,12347,123471,female,Quintile 4,vaginal,postpartum only,24,2265,37.714287,0,boil,0,123470
+39385,no,EBF,279,feces,30,28,10437,104371,female,Quintile 5,vaginal,both intrapartum and postpartum,21,2550,39.857143,1,nothing,0,104371
+39386,no,EBF,304,feces,0,7,11455,114551,female,Quintile 5,vaginal,both intrapartum and postpartum,23,3000,43.42857,NA,nothing,0,114551
+39394,no,EBF,292,feces,15,10,11434,114341,female,Quintile 1,vaginal,both intrapartum and postpartum,26,3150,41.714287,0,boil_strain,0,114341
+39422,no,Not EBF,264,feces,15,14,12347,123471,female,Quintile 4,vaginal,postpartum only,24,2265,37.714287,0,boil,0,123471
+39547,no,Not EBF,295,feces,30,21,11365,113651,male,Quintile 1,vaginal,postpartum only,34,2915,42.142857,1,nothing,0,113651
+39549,no,Not EBF,264,feces,0,7,12347,123471,female,Quintile 4,vaginal,postpartum only,24,2265,37.714287,0,boil,0,123471
+39551,no,EBF,273,feces,0,6,10286,102861,male,Quintile 4,vaginal,postpartum only,18,3105,39,1,nothing,0,102861
+39555,no,EBF,304,feces,0,2,11455,114551,female,Quintile 5,vaginal,both intrapartum and postpartum,23,3000,43.42857,NA,nothing,0,114551
+39558,no,EBF,271,feces,0,2,10106,101061,male,Quintile 4,vaginal,both intrapartum and postpartum,22,2385,38.714287,0,filter,1,101061
+39559,no,EBF,264,feces,15,10,10251,102511,male,Quintile 5,vaginal,postpartum only,18,2460,37.714287,0,boil_strain,0,102511
+39568,no,EBF,270,feces,0,3,10254,102541,male,Quintile 4,vaginal,postpartum only,20,2470,38.57143,1,nothing,0,102541
+39666,no,EBF,278,feces,30,21,10291,102911,female,Quintile 5,vaginal,postpartum only,27,3790,39.714287,0,nothing,0,102911
+39673,no,Not EBF,264,feces,15,10,12347,123471,female,Quintile 4,vaginal,postpartum only,24,2265,37.714287,0,boil,0,123471
+39681,no,EBF,275,feces,30,21,10836,108361,female,Quintile 1,vaginal,postpartum only,27,3190,39.285713,0,nothing,0,108361
+39767,no,EBF,275,feces,30,28,10836,108361,female,Quintile 1,vaginal,postpartum only,27,3190,39.285713,0,nothing,0,108361
+39776,yes,Not EBF,272,feces,30,28,10163,101631,male,Quintile 3,vaginal,postpartum only,19,2753,38.857143,1,nothing,0,101631
+39891,no,Not EBF,271,feces,15,10,10106,101061,male,Quintile 4,vaginal,both intrapartum and postpartum,22,2385,38.714287,0,filter,1,101061
+39896,no,Not EBF,271,feces,0,6,10106,101061,male,Quintile 4,vaginal,both intrapartum and postpartum,22,2385,38.714287,0,filter,1,101061
+39900,no,EBF,279,feces,0,6,10437,104371,female,Quintile 5,vaginal,both intrapartum and postpartum,21,2550,39.857143,1,nothing,0,104371
+39901,no,EBF,285,feces,30,35,11500,115001,female,Quintile 5,csection,both intrapartum and postpartum,26,2520,40.714287,1,nothing,0,115001
+39917,no,EBF,280,feces,0,2,11959,119591,female,Quintile 5,vaginal,postpartum only,21,3040,40,1,filter,1,119591
+39932,no,EBF,270,feces,0,7,10254,102541,male,Quintile 4,vaginal,postpartum only,20,2470,38.57143,1,nothing,0,102541
+40003,no,EBF,287,feces,15,10,11705,117051,female,Quintile 5,vaginal,postpartum only,18,2980,41,1,boil_filter_strain,1,117051
+40010,NA,NA,246,milk,15,10,10436,104361,female,Quintile 4,csection,postpartum only,30,2640,35.142857,1,boil,0,104360
+40035,NA,NA,294,milk,15,14,10521,105211,female,Quintile 4,vaginal,postpartum only,25,2615,42,1,nothing,0,105210
+40228,NA,NA,278,milk,0,2,11935,119351,male,Quintile 3,csection,postpartum only,32,2720,39.714287,0,boil,0,119350
+40247,no,EBF,273,feces,30,21,10571,105711,female,Quintile 5,csection,postpartum only,30,3140,39,1,boil_filter,1,105711
+40249,yes,Not EBF,266,feces,30,35,10428,104281,male,Quintile 1,vaginal,postpartum only,27,2805,38,1,boil_filter,1,104281
+40263,no,Not EBF,255,feces,15,14,11547,115471,male,Quintile 2,csection,postpartum only,21,2750,36.42857,1,boil_strain,0,115471
+40265,no,EBF,266,feces,15,14,11040,110401,female,Quintile 2,csection,both intrapartum and postpartum,32,3100,38,1,boil,0,110401
+40267,no,Not EBF,285,feces,15,10,10374,103741,female,Quintile 2,csection,both intrapartum and postpartum,18,2070,40.714287,0,boil,0,103741
+40412,no,EBF,266,feces,0,2,11438,114381,male,Quintile 4,csection,postpartum only,20,3265,38,NA,boil,0,114381
+40426,no,Not EBF,286,feces,0,5,10314,103141,male,Quintile 2,csection,postpartum only,20,2805,40.857143,1,nothing,0,103141
+40428,no,Not EBF,255,feces,30,21,11547,115471,male,Quintile 2,csection,postpartum only,21,2750,36.42857,1,boil_strain,0,115471
+40431,no,EBF,246,feces,30,28,10436,104361,female,Quintile 4,csection,postpartum only,30,2640,35.142857,1,boil,0,104361
+40437,no,EBF,267,feces,0,6,10727,107271,male,Quintile 2,vaginal,postpartum only,30,2615,38.142857,0,boil_strain,0,107271
+40446,no,EBF,280,feces,0,2,11215,112151,male,Quintile 2,csection,postpartum only,25,2710,40,1,filter,1,112151
+40449,no,EBF,246,feces,30,24,10436,104361,female,Quintile 4,csection,postpartum only,30,2640,35.142857,1,boil,0,104361
+40498,no,EBF,273,feces,15,10,10684,106841,female,Quintile 4,csection,postpartum only,23,2845,39,1,boil_filter_strain,1,106841
+40608,no,EBF,280,feces,30,28,11494,114941,female,Quintile 2,csection,postpartum only,30,2850,40,1,boil,0,114941
+40705,no,EBF,266,feces,30,28,12085,120851,male,Quintile 4,csection,both intrapartum and postpartum,24,3000,38,1,boil,0,120851
+40752,NA,NA,273,milk,15,14,10734,107341,male,Quintile 5,vaginal,postpartum only,28,4000,39,0,boil_filter,1,107340
+40941,no,Not EBF,285,feces,15,14,10374,103741,female,Quintile 2,csection,both intrapartum and postpartum,18,2070,40.714287,0,boil,0,103741
+40956,no,EBF,267,feces,0,1,10727,107271,male,Quintile 2,vaginal,postpartum only,30,2615,38.142857,0,boil_strain,0,107271
+40966,no,EBF,278,feces,0,3,11935,119351,male,Quintile 3,csection,postpartum only,32,2720,39.714287,0,boil,0,119351
+41040,NA,NA,273,milk,30,28,12281,122811,female,Quintile 4,csection,both intrapartum and postpartum,28,2735,39,1,boil_strain,0,122810
+41095,NA,NA,273,milk,15,10,11413,114131,female,Quintile 3,csection,postpartum only,35,2833,39,1,boil,0,114130
+41221,no,EBF,270,feces,30,35,12179,121791,male,Quintile 4,csection,both intrapartum and postpartum,25,3240,38.57143,1,nothing,0,121791
+41365,NA,NA,255,milk,30,21,11547,115471,male,Quintile 2,csection,postpartum only,21,2750,36.42857,1,boil_strain,0,115470
+41476,no,EBF,286,feces,0,2,10314,103141,male,Quintile 2,csection,postpartum only,20,2805,40.857143,1,nothing,0,103141
+41492,no,Not EBF,273,feces,15,14,11413,114131,female,Quintile 3,csection,postpartum only,35,2833,39,1,boil,0,114131
+41512,no,EBF,266,feces,0,5,10137,101371,female,Quintile 3,vaginal,postpartum only,25,3360,38,0,boil_filter,1,101371
+41644,no,Not EBF,286,feces,15,10,10314,103141,male,Quintile 2,csection,postpartum only,20,2805,40.857143,1,nothing,0,103141
+41668,no,EBF,273,feces,30,29,10571,105711,female,Quintile 5,csection,postpartum only,30,3140,39,1,boil_filter,1,105711
+41681,no,EBF,273,feces,30,21,10734,107341,male,Quintile 5,vaginal,postpartum only,28,4000,39,0,boil_filter,1,107341
+41690,no,EBF,286,feces,30,35,10228,102281,female,Quintile 1,vaginal,postpartum only,18,3060,40.857143,0,boil,0,102281
+41692,no,Not EBF,273,feces,30,21,11413,114131,female,Quintile 3,csection,postpartum only,35,2833,39,1,boil,0,114131
+41696,no,Not EBF,294,feces,30,32,10521,105211,female,Quintile 4,vaginal,postpartum only,25,2615,42,1,nothing,0,105211
+41707,no,Not EBF,285,feces,30,28,10374,103741,female,Quintile 2,csection,both intrapartum and postpartum,18,2070,40.714287,0,boil,0,103741
+41710,no,Not EBF,286,feces,0,7,10314,103141,male,Quintile 2,csection,postpartum only,20,2805,40.857143,1,nothing,0,103141
+41754,no,EBF,266,feces,15,10,10137,101371,female,Quintile 3,vaginal,postpartum only,25,3360,38,0,boil_filter,1,101371
+41762,no,Not EBF,273,feces,30,35,11413,114131,female,Quintile 3,csection,postpartum only,35,2833,39,1,boil,0,114131
+41764,no,EBF,273,feces,30,35,10571,105711,female,Quintile 5,csection,postpartum only,30,3140,39,1,boil_filter,1,105711
+41810,NA,NA,285,milk,30,21,10374,103741,female,Quintile 2,csection,both intrapartum and postpartum,18,2070,40.714287,0,boil,0,103740
+41865,NA,NA,285,milk,15,10,10374,103741,female,Quintile 2,csection,both intrapartum and postpartum,18,2070,40.714287,0,boil,0,103740
+41905,NA,NA,266,milk,30,21,12085,120851,male,Quintile 4,csection,both intrapartum and postpartum,24,3000,38,1,boil,0,120850
+41909,no,EBF,278,feces,15,14,11935,119351,male,Quintile 3,csection,postpartum only,32,2720,39.714287,0,boil,0,119351
+42164,no,Not EBF,286,feces,15,14,10314,103141,male,Quintile 2,csection,postpartum only,20,2805,40.857143,1,nothing,0,103141
+42167,no,EBF,273,feces,30,28,10684,106841,female,Quintile 4,csection,postpartum only,23,2845,39,1,boil_filter_strain,1,106841
+42180,no,EBF,278,feces,30,21,11935,119351,male,Quintile 3,csection,postpartum only,32,2720,39.714287,0,boil,0,119351
+42183,no,Not EBF,255,feces,30,35,11547,115471,male,Quintile 2,csection,postpartum only,21,2750,36.42857,1,boil_strain,0,115471
+42194,no,EBF,280,feces,15,10,11215,112151,male,Quintile 2,csection,postpartum only,25,2710,40,1,filter,1,112151
+42196,no,Not EBF,294,feces,30,35,10521,105211,female,Quintile 4,vaginal,postpartum only,25,2615,42,1,nothing,0,105211
+42203,yes,EBF,269,feces,30,35,10681,106811,female,Quintile 5,vaginal,postpartum only,30,2680,38.42857,0,filter,1,106811
+42456,no,Not EBF,255,feces,60,60,11547,115471,male,Quintile 2,csection,postpartum only,21,2750,36.42857,1,boil_strain,0,115471
+42468,no,EBF,270,feces,60,60,12179,121791,male,Quintile 4,csection,both intrapartum and postpartum,25,3240,38.57143,1,nothing,0,121791
+42503,yes,EBF,266,feces,30,42,10137,101371,female,Quintile 3,vaginal,postpartum only,25,3360,38,0,boil_filter,1,101371
+42511,no,EBF,280,feces,30,35,11215,112151,male,Quintile 2,csection,postpartum only,25,2710,40,1,filter,1,112151
+42513,no,EBF,280,feces,30,30,11215,112151,male,Quintile 2,csection,postpartum only,25,2710,40,1,filter,1,112151
+42521,no,EBF,273,feces,60,63,12281,122811,female,Quintile 4,csection,both intrapartum and postpartum,28,2735,39,1,boil_strain,0,122811
+42527,no,Not EBF,286,feces,30,31,10314,103141,male,Quintile 2,csection,postpartum only,20,2805,40.857143,1,nothing,0,103141
+42694,no,Not EBF,280,feces,60,60,11494,114941,female,Quintile 2,csection,postpartum only,30,2850,40,1,boil,0,114941
+42706,no,EBF,267,feces,30,21,10727,107271,male,Quintile 2,vaginal,postpartum only,30,2615,38.142857,0,boil_strain,0,107271
+42719,yes,Not EBF,266,feces,60,60,10428,104281,male,Quintile 1,vaginal,postpartum only,27,2805,38,1,boil_filter,1,104281
+42721,no,EBF,278,feces,30,28,11935,119351,male,Quintile 3,csection,postpartum only,32,2720,39.714287,0,boil,0,119351
+42729,no,EBF,273,feces,30,35,10684,106841,female,Quintile 4,csection,postpartum only,23,2845,39,1,boil_filter_strain,1,106841
+42735,no,Not EBF,285,feces,30,35,10374,103741,female,Quintile 2,csection,both intrapartum and postpartum,18,2070,40.714287,0,boil,0,103741
+43307,no,EBF,267,feces,30,28,10727,107271,male,Quintile 2,vaginal,postpartum only,30,2615,38.142857,0,boil_strain,0,107271
+43409,NA,NA,266,milk,60,60,11040,110401,female,Quintile 2,csection,both intrapartum and postpartum,32,3100,38,1,boil,0,110400
+43483,no,EBF,273,feces,60,60,10571,105711,female,Quintile 5,csection,postpartum only,30,3140,39,1,boil_filter,1,105711
+43543,NA,NA,267,milk,30,35,10727,107271,male,Quintile 2,vaginal,postpartum only,30,2615,38.142857,0,boil_strain,0,107270
+43618,NA,NA,266,milk,60,63,12085,120851,male,Quintile 4,csection,both intrapartum and postpartum,24,3000,38,1,boil,0,120850
+43634,no,Not EBF,286,feces,30,42,10314,103141,male,Quintile 2,csection,postpartum only,20,2805,40.857143,1,nothing,0,103141
+43886,no,Not EBF,280,feces,60,60,11959,119591,female,Quintile 5,vaginal,postpartum only,21,3040,40,1,filter,1,119591
+43888,no,EBF,259,feces,0,2,11187,111871,male,Quintile 5,csection,postpartum only,32,2930,37,1,filter,1,111871
+43909,yes,EBF,269,feces,30,21,11199,111991,male,Quintile 5,vaginal,postpartum only,28,3765,39.57143,1,nothing,0,111991
+43943,no,EBF,270,feces,0,4,11545,115451,male,Quintile 4,csection,both intrapartum and postpartum,26,2835,38.57143,1,nothing,0,115451
+43951,NA,NA,264,milk,60,60,12347,123471,female,Quintile 4,vaginal,postpartum only,24,2265,37.714287,0,boil,0,123470
+44099,NA,NA,273,milk,60,56,10684,106841,female,Quintile 4,csection,postpartum only,23,2845,39,1,boil_filter_strain,1,106840
+44131,no,Not EBF,294,feces,60,72,10521,105211,female,Quintile 4,vaginal,postpartum only,25,2615,42,1,nothing,0,105211
+44139,no,EBF,278,feces,60,60,11935,119351,male,Quintile 3,csection,postpartum only,32,2720,39.714287,0,boil,0,119351
+44142,no,Not EBF,273,feces,60,60,10734,107341,male,Quintile 5,vaginal,postpartum only,28,4000,39,0,boil_filter,1,107341
+44161,yes,Not EBF,257,feces,60,64,11090,110901,female,Quintile 2,vaginal,postpartum only,26,3500,36.714287,1,nothing,0,110901
+44309,yes,Not EBF,269,feces,90,80,10681,106811,female,Quintile 5,vaginal,postpartum only,30,2680,38.42857,0,filter,1,106811
+44338,yes,Not EBF,273,feces,60,63,11413,114131,female,Quintile 3,csection,postpartum only,35,2833,39,1,boil,0,114131
+44508,NA,NA,285,milk,60,60,10374,103741,female,Quintile 2,csection,both intrapartum and postpartum,18,2070,40.714287,0,boil,0,103740
+44533,NA,NA,273,milk,60,60,10734,107341,male,Quintile 5,vaginal,postpartum only,28,4000,39,0,boil_filter,1,107340
+44542,NA,NA,257,milk,60,64,11090,110901,female,Quintile 2,vaginal,postpartum only,26,3500,36.714287,1,nothing,0,110900
+44640,no,EBF,246,feces,60,74,10436,104361,female,Quintile 4,csection,postpartum only,30,2640,35.142857,1,boil,0,104361
+44648,no,EBF,275,feces,0,7,10690,106901,female,Quintile 3,csection,both intrapartum and postpartum,30,3500,39.285713,1,nothing,0,106901
+44744,NA,NA,273,milk,60,60,11413,114131,female,Quintile 3,csection,postpartum only,35,2833,39,1,boil,0,114130
+44848,NA,NA,280,milk,60,60,11215,112151,male,Quintile 2,csection,postpartum only,25,2710,40,1,filter,1,112150
+44871,no,EBF,287,feces,0,2,11705,117051,female,Quintile 5,vaginal,postpartum only,18,2980,41,1,boil_filter_strain,1,117051
+44884,no,EBF,266,feces,15,10,11438,114381,male,Quintile 4,csection,postpartum only,20,3265,38,NA,boil,0,114381
+44908,no,EBF,291,feces,0,3,12038,120381,female,Quintile 4,csection,postpartum only,30,2210,36.714287,0,boil_strain,0,120381
+44969,NA,NA,294,milk,90,75,10521,105211,female,Quintile 4,vaginal,postpartum only,25,2615,42,1,nothing,0,105210
+44971,NA,NA,246,milk,60,74,10436,104361,female,Quintile 4,csection,postpartum only,30,2640,35.142857,1,boil,0,104360
+48011,NA,NA,278,milk,60,60,10291,102911,female,Quintile 5,vaginal,postpartum only,27,3790,39.714287,0,nothing,0,102910
+48019,NA,NA,275,milk,60,60,10836,108361,female,Quintile 1,vaginal,postpartum only,27,3190,39.285713,0,nothing,0,108360
+48108,no,Not EBF,295,feces,60,60,11365,113651,male,Quintile 1,vaginal,postpartum only,34,2915,42.142857,1,nothing,0,113651
+48135,NA,NA,273,milk,60,60,10286,102861,male,Quintile 4,vaginal,postpartum only,18,3105,39,1,nothing,0,102860
+48159,NA,NA,280,milk,30,42,11959,119591,female,Quintile 5,vaginal,postpartum only,21,3040,40,1,filter,1,119590
+48165,NA,NA,279,milk,60,49,10437,104371,female,Quintile 5,vaginal,both intrapartum and postpartum,21,2550,39.857143,1,nothing,0,104370
+48174,NA,NA,264,milk,30,42,10251,102511,male,Quintile 5,vaginal,postpartum only,18,2460,37.714287,0,boil_strain,0,102510
+48179,NA,NA,272,milk,60,60,10163,101631,male,Quintile 3,vaginal,postpartum only,19,2753,38.857143,1,nothing,0,101630
+48229,NA,NA,270,milk,60,49,10254,102541,male,Quintile 4,vaginal,postpartum only,20,2470,38.57143,1,nothing,0,102540
+48280,no,EBF,259,feces,30,21,11187,111871,male,Quintile 5,csection,postpartum only,32,2930,37,1,filter,1,111871
+48493,NA,NA,280,milk,30,21,10395,103951,male,Quintile 5,csection,postpartum only,32,2795,40,1,boil_strain,0,103950
+48616,NA,NA,269,blood,0,1,10455,104551,female,Quintile 5,csection,postpartum only,28,2665,38.42857,1,boil_strain,0,104551
+48738,no,EBF,259,feces,30,28,11187,111871,male,Quintile 5,csection,postpartum only,32,2930,37,1,filter,1,111871
+48750,NA,NA,269,milk,0,1,10455,104551,female,Quintile 5,csection,postpartum only,28,2665,38.42857,1,boil_strain,0,104550
+48968,no,EBF,280,feces,0,1,11459,114591,female,Quintile 4,csection,both intrapartum and postpartum,21,2400,40,0,nothing,0,114591
+48969,yes,Not EBF,280,feces,90,90,11959,119591,female,Quintile 5,vaginal,postpartum only,21,3040,40,1,filter,1,119591
+49014,no,EBF,270,feces,15,14,11545,115451,male,Quintile 4,csection,both intrapartum and postpartum,26,2835,38.57143,1,nothing,0,115451
+49183,no,EBF,285,feces,30,21,12323,123231,female,Quintile 4,vaginal,postpartum only,35,3840,40.714287,1,nothing,0,123231
+49233,NA,NA,285,milk,15,14,12323,123231,female,Quintile 4,vaginal,postpartum only,35,3840,40.714287,1,nothing,0,123230
+49251,NA,NA,269,milk,15,14,11199,111991,male,Quintile 5,vaginal,postpartum only,28,3765,39.57143,1,nothing,0,111990
+49559,no,EBF,285,feces,0,7,12323,123231,female,Quintile 4,vaginal,postpartum only,35,3840,40.714287,1,nothing,0,123231
+49564,yes,Not EBF,272,feces,90,90,10163,101631,male,Quintile 3,vaginal,postpartum only,19,2753,38.857143,1,nothing,0,101631
+49586,no,EBF,259,feces,15,10,11187,111871,male,Quintile 5,csection,postpartum only,32,2930,37,1,filter,1,111871
+49593,no,EBF,280,feces,15,14,10395,103951,male,Quintile 5,csection,postpartum only,32,2795,40,1,boil_strain,0,103951
+49594,no,EBF,270,feces,15,10,11545,115451,male,Quintile 4,csection,both intrapartum and postpartum,26,2835,38.57143,1,nothing,0,115451
+49682,no,EBF,259,feces,0,7,11187,111871,male,Quintile 5,csection,postpartum only,32,2930,37,1,filter,1,111871
+49809,no,EBF,269,feces,0,1,10455,104551,female,Quintile 5,csection,postpartum only,28,2665,38.42857,1,boil_strain,0,104551
+49825,no,Not EBF,264,feces,90,92,12347,123471,female,Quintile 4,vaginal,postpartum only,24,2265,37.714287,0,boil,0,123471
+49842,no,EBF,269,feces,15,14,11199,111991,male,Quintile 5,vaginal,postpartum only,28,3765,39.57143,1,nothing,0,111991
+49916,NA,NA,280,blood,0,2,11459,114591,female,Quintile 4,csection,both intrapartum and postpartum,21,2400,40,0,nothing,0,114591
+49941,NA,NA,270,blood,0,1,11545,115451,male,Quintile 4,csection,both intrapartum and postpartum,26,2835,38.57143,1,nothing,0,115451
+50062,NA,NA,259,milk,0,2,11187,111871,male,Quintile 5,csection,postpartum only,32,2930,37,1,filter,1,111870
+50070,NA,NA,270,milk,0,1,11545,115451,male,Quintile 4,csection,both intrapartum and postpartum,26,2835,38.57143,1,nothing,0,115450
+50097,no,EBF,280,feces,0,4,10395,103951,male,Quintile 5,csection,postpartum only,32,2795,40,1,boil_strain,0,103951
+50098,no,EBF,259,feces,0,4,11187,111871,male,Quintile 5,csection,postpartum only,32,2930,37,1,filter,1,111871
+50102,no,EBF,270,feces,15,10,11775,117751,female,Quintile 4,vaginal,postpartum only,34,2815,38.57143,1,boil_strain,0,117751
+50203,NA,NA,270,milk,15,10,11775,117751,female,Quintile 4,vaginal,postpartum only,34,2815,38.57143,1,boil_strain,0,117750
+50240,yes,EBF,280,feces,30,35,10395,103951,male,Quintile 5,csection,postpartum only,32,2795,40,1,boil_strain,0,103951
+50242,yes,Not EBF,292,feces,90,90,11434,114341,female,Quintile 1,vaginal,both intrapartum and postpartum,26,3150,41.714287,0,boil_strain,0,114341
+50257,no,EBF,285,feces,15,10,12323,123231,female,Quintile 4,vaginal,postpartum only,35,3840,40.714287,1,nothing,0,123231
+50389,no,EBF,285,feces,15,14,12323,123231,female,Quintile 4,vaginal,postpartum only,35,3840,40.714287,1,nothing,0,123231
+50417,no,EBF,270,feces,0,2,11545,115451,male,Quintile 4,csection,both intrapartum and postpartum,26,2835,38.57143,1,nothing,0,115451
+50435,no,EBF,280,feces,0,4,11459,114591,female,Quintile 4,csection,both intrapartum and postpartum,21,2400,40,0,nothing,0,114591
+50436,no,Not EBF,275,feces,90,90,10836,108361,female,Quintile 1,vaginal,postpartum only,27,3190,39.285713,0,nothing,0,108361
+50538,no,EBF,270,feces,0,2,11775,117751,female,Quintile 4,vaginal,postpartum only,34,2815,38.57143,1,boil_strain,0,117751
+50710,NA,NA,270,milk,0,4,11775,117751,female,Quintile 4,vaginal,postpartum only,34,2815,38.57143,1,boil_strain,0,117750
+50712,NA,NA,304,milk,60,60,11455,114551,female,Quintile 5,vaginal,both intrapartum and postpartum,23,3000,43.42857,NA,nothing,0,114550
+50728,NA,NA,280,milk,60,60,11959,119591,female,Quintile 5,vaginal,postpartum only,21,3040,40,1,filter,1,119590
+50748,NA,NA,264,milk,60,60,10251,102511,male,Quintile 5,vaginal,postpartum only,18,2460,37.714287,0,boil_strain,0,102510
+50797,no,EBF,285,feces,90,90,11500,115001,female,Quintile 5,csection,both intrapartum and postpartum,26,2520,40.714287,1,nothing,0,115001
+50803,no,EBF,269,feces,0,1,11199,111991,male,Quintile 5,vaginal,postpartum only,28,3765,39.57143,1,nothing,0,111991
+50812,yes,Not EBF,271,feces,60,60,10106,101061,male,Quintile 4,vaginal,both intrapartum and postpartum,22,2385,38.714287,0,filter,1,101061
+50823,NA,NA,270,milk,60,60,10254,102541,male,Quintile 4,vaginal,postpartum only,20,2470,38.57143,1,nothing,0,102540
+50850,NA,NA,264,milk,60,56,10251,102511,male,Quintile 5,vaginal,postpartum only,18,2460,37.714287,0,boil_strain,0,102510
+50871,NA,NA,270,milk,60,56,10254,102541,male,Quintile 4,vaginal,postpartum only,20,2470,38.57143,1,nothing,0,102540
+50890,NA,NA,279,milk,60,60,10437,104371,female,Quintile 5,vaginal,both intrapartum and postpartum,21,2550,39.857143,1,nothing,0,104370
+50895,NA,NA,292,milk,60,60,11434,114341,female,Quintile 1,vaginal,both intrapartum and postpartum,26,3150,41.714287,0,boil_strain,0,114340
+50897,NA,NA,271,milk,60,60,10106,101061,male,Quintile 4,vaginal,both intrapartum and postpartum,22,2385,38.714287,0,filter,1,101060
+50940,no,EBF,270,feces,0,7,11775,117751,female,Quintile 4,vaginal,postpartum only,34,2815,38.57143,1,boil_strain,0,117751
+50954,no,EBF,270,feces,15,14,11775,117751,female,Quintile 4,vaginal,postpartum only,34,2815,38.57143,1,boil_strain,0,117751
+50957,no,Not EBF,264,feces,60,65,10251,102511,male,Quintile 5,vaginal,postpartum only,18,2460,37.714287,0,boil_strain,0,102511
+50960,no,EBF,285,feces,0,1,12323,123231,female,Quintile 4,vaginal,postpartum only,35,3840,40.714287,1,nothing,0,123231
+50974,no,EBF,269,feces,0,7,11199,111991,male,Quintile 5,vaginal,postpartum only,28,3765,39.57143,1,nothing,0,111991
+50976,no,Not EBF,304,feces,60,60,11455,114551,female,Quintile 5,vaginal,both intrapartum and postpartum,23,3000,43.42857,NA,nothing,0,114551
+51093,no,EBF,252,feces,15,14,11196,111961,female,Quintile 3,vaginal,postpartum only,28,2430,36,1,filter,1,111961
+51107,no,Not EBF,280,feces,90,90,11494,114941,female,Quintile 2,csection,postpartum only,30,2850,40,1,boil,0,114941
+51203,NA,NA,278,milk,60,60,11935,119351,male,Quintile 3,csection,postpartum only,32,2720,39.714287,0,boil,0,119350
+51205,NA,NA,280,milk,60,50,11215,112151,male,Quintile 2,csection,postpartum only,25,2710,40,1,filter,1,112150
+51302,NA,NA,291,milk,0,3,12038,120381,female,Quintile 4,csection,postpartum only,30,2210,36.714287,0,boil_strain,0,120380
+51456,no,EBF,267,feces,60,60,10727,107271,male,Quintile 2,vaginal,postpartum only,30,2615,38.142857,0,boil_strain,0,107271
+51489,no,EBF,291,feces,15,12,12038,120381,female,Quintile 4,csection,postpartum only,30,2210,36.714287,0,boil_strain,0,120381
+51500,no,EBF,266,feces,0,7,11438,114381,male,Quintile 4,csection,postpartum only,20,3265,38,NA,boil,0,114381
+51768,NA,NA,267,milk,60,60,10727,107271,male,Quintile 2,vaginal,postpartum only,30,2615,38.142857,0,boil_strain,0,107270
+51798,no,EBF,278,feces,0,0,10058,100581,male,Quintile 5,vaginal,postpartum only,24,3250,39.714287,1,boil,0,100581
+51808,no,EBF,265,feces,0,2,12258,122581,female,Quintile 4,csection,postpartum only,20,3840,37.857143,0,boil_strain,0,122581
+51828,NA,NA,278,milk,0,2,10058,100581,male,Quintile 5,vaginal,postpartum only,24,3250,39.714287,1,boil,0,100580
+51908,yes,EBF,266,feces,60,63,10137,101371,female,Quintile 3,vaginal,postpartum only,25,3360,38,0,boil_filter,1,101371
+51917,no,Not EBF,280,feces,60,60,11215,112151,male,Quintile 2,csection,postpartum only,25,2710,40,1,filter,1,112151
+51960,NA,NA,266,milk,60,63,10137,101371,female,Quintile 3,vaginal,postpartum only,25,3360,38,0,boil_filter,1,101370
+52014,no,EBF,270,feces,0,1,10268,102681,male,Quintile 4,csection,postpartum only,24,3190,38.57143,1,boil_filter,1,102681
+52036,no,EBF,278,feces,0,7,10058,100581,male,Quintile 5,vaginal,postpartum only,24,3250,39.714287,1,boil,0,100581
+52037,no,EBF,275,feces,0,3,10690,106901,female,Quintile 3,csection,both intrapartum and postpartum,30,3500,39.285713,1,nothing,0,106901
+52192,no,EBF,252,feces,0,2,11196,111961,female,Quintile 3,vaginal,postpartum only,28,2430,36,1,filter,1,111961
+52201,no,EBF,265,feces,0,5,12258,122581,female,Quintile 4,csection,postpartum only,20,3840,37.857143,0,boil_strain,0,122581
+52205,no,Not EBF,294,feces,90,89,10521,105211,female,Quintile 4,vaginal,postpartum only,25,2615,42,1,nothing,0,105211
+52208,no,EBF,291,feces,15,14,12038,120381,female,Quintile 4,csection,postpartum only,30,2210,36.714287,0,boil_strain,0,120381
+52215,no,EBF,278,feces,0,5,10058,100581,male,Quintile 5,vaginal,postpartum only,24,3250,39.714287,1,boil,0,100581
+52253,NA,NA,252,milk,0,1,11196,111961,female,Quintile 3,vaginal,postpartum only,28,2430,36,1,filter,1,111960
+52415,no,EBF,266,feces,0,2,10077,100771,female,Quintile 5,csection,postpartum only,19,2680,38,1,boil_filter_strain,1,100771
+52419,no,EBF,271,feces,0,1,11112,111121,female,Quintile 1,csection,postpartum only,30,2620,38.714287,1,boil,0,111121
+52725,NA,NA,282,milk,15,10,11339,113391,female,Quintile 2,vaginal,postpartum only,23,3135,40.285713,1,filter,1,113390
+52787,no,EBF,266,feces,90,90,11040,110401,female,Quintile 2,csection,both intrapartum and postpartum,32,3100,38,1,boil,0,110401
+52820,no,EBF,282,feces,15,8,11339,113391,female,Quintile 2,vaginal,postpartum only,23,3135,40.285713,1,filter,1,113391
+52839,no,EBF,287,feces,15,14,11705,117051,female,Quintile 5,vaginal,postpartum only,18,2980,41,1,boil_filter_strain,1,117051
+52850,no,EBF,266,feces,0,4,10077,100771,female,Quintile 5,csection,postpartum only,19,2680,38,1,boil_filter_strain,1,100771
+52981,NA,NA,265,milk,15,10,12258,122581,female,Quintile 4,csection,postpartum only,20,3840,37.857143,0,boil_strain,0,122580
+53006,NA,NA,266,milk,0,2,10077,100771,female,Quintile 5,csection,postpartum only,19,2680,38,1,boil_filter_strain,1,100770
+53062,no,EBF,252,feces,15,8,11196,111961,female,Quintile 3,vaginal,postpartum only,28,2430,36,1,filter,1,111961
+53070,no,EBF,275,feces,0,5,10690,106901,female,Quintile 3,csection,both intrapartum and postpartum,30,3500,39.285713,1,nothing,0,106901
+53087,no,EBF,291,feces,30,21,12038,120381,female,Quintile 4,csection,postpartum only,30,2210,36.714287,0,boil_strain,0,120381
+53378,no,Not EBF,285,feces,90,90,10374,103741,female,Quintile 2,csection,both intrapartum and postpartum,18,2070,40.714287,0,boil,0,103741
+53381,no,EBF,278,feces,15,11,10058,100581,male,Quintile 5,vaginal,postpartum only,24,3250,39.714287,1,boil,0,100581
+53487,no,EBF,282,feces,15,10,11339,113391,female,Quintile 2,vaginal,postpartum only,23,3135,40.285713,1,filter,1,113391
+53663,NA,NA,271,milk,0,4,11112,111121,female,Quintile 1,csection,postpartum only,30,2620,38.714287,1,boil,0,111120
+53772,no,EBF,265,feces,15,14,12258,122581,female,Quintile 4,csection,postpartum only,20,3840,37.857143,0,boil_strain,0,122581
+53785,no,EBF,282,feces,15,14,11339,113391,female,Quintile 2,vaginal,postpartum only,23,3135,40.285713,1,filter,1,113391
+53820,no,EBF,252,feces,15,10,11196,111961,female,Quintile 3,vaginal,postpartum only,28,2430,36,1,filter,1,111961
+59213,NA,NA,270,milk,0,2,10268,102681,male,Quintile 4,csection,postpartum only,24,3190,38.57143,1,boil_filter,1,102680
+59282,no,EBF,291,feces,30,28,12038,120381,female,Quintile 4,csection,postpartum only,30,2210,36.714287,0,boil_strain,0,120381
+59311,yes,EBF,266,feces,120,105,12085,120851,male,Quintile 4,csection,both intrapartum and postpartum,24,3000,38,1,boil,0,120851
+59338,no,EBF,287,feces,30,21,11705,117051,female,Quintile 5,vaginal,postpartum only,18,2980,41,1,boil_filter_strain,1,117051
+59407,NA,NA,286,milk,90,75,10314,103141,male,Quintile 2,csection,postpartum only,20,2805,40.857143,1,nothing,0,103140
+59488,no,Not EBF,278,feces,90,92,11935,119351,male,Quintile 3,csection,postpartum only,32,2720,39.714287,0,boil,0,119351
+59542,yes,Not EBF,273,feces,90,90,11413,114131,female,Quintile 3,csection,postpartum only,35,2833,39,1,boil,0,114131
+59689,no,EBF,271,feces,15,14,11112,111121,female,Quintile 1,csection,postpartum only,30,2620,38.714287,1,boil,0,111121
+59711,no,Not EBF,265,feces,30,21,12258,122581,female,Quintile 4,csection,postpartum only,20,3840,37.857143,0,boil_strain,0,122581
+59765,no,EBF,275,feces,15,10,10690,106901,female,Quintile 3,csection,both intrapartum and postpartum,30,3500,39.285713,1,nothing,0,106901
+59927,NA,NA,271,milk,15,10,11112,111121,female,Quintile 1,csection,postpartum only,30,2620,38.714287,1,boil,0,111120
+60136,no,EBF,282,feces,30,21,11339,113391,female,Quintile 2,vaginal,postpartum only,23,3135,40.285713,1,filter,1,113391
+60281,no,Not EBF,270,feces,0,7,10268,102681,male,Quintile 4,csection,postpartum only,24,3190,38.57143,1,boil_filter,1,102681
+60565,no,EBF,278,feces,30,21,10058,100581,male,Quintile 5,vaginal,postpartum only,24,3250,39.714287,1,boil,0,100581
+60787,NA,NA,282,milk,30,21,11339,113391,female,Quintile 2,vaginal,postpartum only,23,3135,40.285713,1,filter,1,113390
+60825,no,EBF,291,feces,30,35,12038,120381,female,Quintile 4,csection,postpartum only,30,2210,36.714287,0,boil_strain,0,120381
+60970,no,EBF,287,feces,30,28,11705,117051,female,Quintile 5,vaginal,postpartum only,18,2980,41,1,boil_filter_strain,1,117051
+61350,no,Not EBF,270,feces,30,28,10268,102681,male,Quintile 4,csection,postpartum only,24,3190,38.57143,1,boil_filter,1,102681
+61356,yes,EBF,266,feces,30,31,11438,114381,male,Quintile 4,csection,postpartum only,20,3265,38,NA,boil,0,114381
+61619,no,Not EBF,270,feces,15,14,10268,102681,male,Quintile 4,csection,postpartum only,24,3190,38.57143,1,boil_filter,1,102681
+62049,no,EBF,275,feces,30,21,10690,106901,female,Quintile 3,csection,both intrapartum and postpartum,30,3500,39.285713,1,nothing,0,106901
+62087,NA,NA,287,milk,30,35,11705,117051,female,Quintile 5,vaginal,postpartum only,18,2980,41,1,boil_filter_strain,1,117050
+62330,yes,EBF,266,feces,90,90,10137,101371,female,Quintile 3,vaginal,postpartum only,25,3360,38,0,boil_filter,1,101371
+62332,no,EBF,282,feces,30,28,11339,113391,female,Quintile 2,vaginal,postpartum only,23,3135,40.285713,1,filter,1,113391
+62344,no,EBF,282,feces,60,67,11339,113391,female,Quintile 2,vaginal,postpartum only,23,3135,40.285713,1,filter,1,113391
+62352,no,Not EBF,280,feces,90,90,11215,112151,male,Quintile 2,csection,postpartum only,25,2710,40,1,filter,1,112151
+62587,no,EBF,267,feces,90,91,10727,107271,male,Quintile 2,vaginal,postpartum only,30,2615,38.142857,0,boil_strain,0,107271
+62598,no,EBF,266,feces,30,25,10077,100771,female,Quintile 5,csection,postpartum only,19,2680,38,1,boil_filter_strain,1,100771
+62839,NA,NA,270,milk,30,21,10268,102681,male,Quintile 4,csection,postpartum only,24,3190,38.57143,1,boil_filter,1,102680
+62892,no,EBF,271,feces,30,23,11112,111121,female,Quintile 1,csection,postpartum only,30,2620,38.714287,1,boil,0,111121
+69003,yes,Not EBF,280,feces,15,14,11459,114591,female,Quintile 4,csection,both intrapartum and postpartum,21,2400,40,0,nothing,0,114591
+69044,yes,Not EBF,304,feces,90,104,11455,114551,female,Quintile 5,vaginal,both intrapartum and postpartum,23,3000,43.42857,NA,nothing,0,114551
+69079,NA,NA,259,milk,30,35,11187,111871,male,Quintile 5,csection,postpartum only,32,2930,37,1,filter,1,111870
+69321,yes,Not EBF,273,feces,90,97,10286,102861,male,Quintile 4,vaginal,postpartum only,18,3105,39,1,nothing,0,102861
+69336,no,Not EBF,270,feces,30,28,11775,117751,female,Quintile 4,vaginal,postpartum only,34,2815,38.57143,1,boil_strain,0,117751
+69557,no,Not EBF,264,feces,90,90,10251,102511,male,Quintile 5,vaginal,postpartum only,18,2460,37.714287,0,boil_strain,0,102511
+69558,yes,EBF,269,feces,30,28,11199,111991,male,Quintile 5,vaginal,postpartum only,28,3765,39.57143,1,nothing,0,111991
+69577,no,EBF,280,feces,15,10,11459,114591,female,Quintile 4,csection,both intrapartum and postpartum,21,2400,40,0,nothing,0,114591
+69735,NA,NA,269,milk,0,4,10455,104551,female,Quintile 5,csection,postpartum only,28,2665,38.42857,1,boil_strain,0,104550
+69750,NA,NA,280,milk,30,35,10395,103951,male,Quintile 5,csection,postpartum only,32,2795,40,1,boil_strain,0,103950
+69964,no,EBF,270,feces,30,28,11545,115451,male,Quintile 4,csection,both intrapartum and postpartum,26,2835,38.57143,1,nothing,0,115451
+70422,no,EBF,269,feces,30,21,10455,104551,female,Quintile 5,csection,postpartum only,28,2665,38.42857,1,boil_strain,0,104551
+70741,no,EBF,269,feces,15,11,10455,104551,female,Quintile 5,csection,postpartum only,28,2665,38.42857,1,boil_strain,0,104551
+70922,no,EBF,270,feces,30,35,11545,115451,male,Quintile 4,csection,both intrapartum and postpartum,26,2835,38.57143,1,nothing,0,115451
+71064,yes,Not EBF,280,feces,30,21,11459,114591,female,Quintile 4,csection,both intrapartum and postpartum,21,2400,40,0,nothing,0,114591
+71100,no,EBF,269,feces,15,14,10455,104551,female,Quintile 5,csection,postpartum only,28,2665,38.42857,1,boil_strain,0,104551
+72046,NA,NA,266,milk,30,42,11438,114381,male,Quintile 4,csection,postpartum only,20,3265,38,NA,boil,0,114380
+72228,no,EBF,266,feces,30,33,10077,100771,female,Quintile 5,csection,postpartum only,19,2680,38,1,boil_filter_strain,1,100771
+7290,no,EBF,295,feces,0,0,11365,113651,male,Quintile 1,vaginal,postpartum only,34,2915,42.142857,1,nothing,0,113651
+73084,no,Not EBF,270,feces,30,24,10268,102681,male,Quintile 4,csection,postpartum only,24,3190,38.57143,1,boil_filter,1,102681
+73092,no,EBF,271,feces,30,35,11112,111121,female,Quintile 1,csection,postpartum only,30,2620,38.714287,1,boil,0,111121
+73131,no,Not EBF,275,feces,30,28,10690,106901,female,Quintile 3,csection,both intrapartum and postpartum,30,3500,39.285713,1,nothing,0,106901
+7316,no,EBF,285,feces,0,2,11500,115001,female,Quintile 5,csection,both intrapartum and postpartum,26,2520,40.714287,1,nothing,0,115001
+7325,no,EBF,275,feces,0,2,10836,108361,female,Quintile 1,vaginal,postpartum only,27,3190,39.285713,0,nothing,0,108361
+73307,NA,NA,275,milk,30,28,10690,106901,female,Quintile 3,csection,both intrapartum and postpartum,30,3500,39.285713,1,nothing,0,106900
+73953,NA,NA,252,milk,30,42,11196,111961,female,Quintile 3,vaginal,postpartum only,28,2430,36,1,filter,1,111960
+74099,no,EBF,252,feces,30,38,11196,111961,female,Quintile 3,vaginal,postpartum only,28,2430,36,1,filter,1,111961
+74128,NA,NA,291,milk,60,60,12038,120381,female,Quintile 4,csection,postpartum only,30,2210,36.714287,0,boil_strain,0,120380
+7441,no,EBF,285,feces,0,4,11500,115001,female,Quintile 5,csection,both intrapartum and postpartum,26,2520,40.714287,1,nothing,0,115001
+74513,NA,NA,266,milk,60,49,11438,114381,male,Quintile 4,csection,postpartum only,20,3265,38,NA,boil,0,114380
+74531,NA,NA,266,milk,30,35,10077,100771,female,Quintile 5,csection,postpartum only,19,2680,38,1,boil_filter_strain,1,100770
+75219,NA,NA,270,milk,30,35,10268,102681,male,Quintile 4,csection,postpartum only,24,3190,38.57143,1,boil_filter,1,102680
+75245,NA,NA,291,milk,60,56,12038,120381,female,Quintile 4,csection,postpartum only,30,2210,36.714287,0,boil_strain,0,120380
+75409,yes,Not EBF,286,feces,120,133,10228,102281,female,Quintile 1,vaginal,postpartum only,18,3060,40.857143,0,boil,0,102281
+7608,no,EBF,285,feces,15,14,11500,115001,female,Quintile 5,csection,both intrapartum and postpartum,26,2520,40.714287,1,nothing,0,115001
+76190,NA,NA,269,milk,30,21,10455,104551,female,Quintile 5,csection,postpartum only,28,2665,38.42857,1,boil_strain,0,104550
+7622,no,Not EBF,295,feces,0,6,11365,113651,male,Quintile 1,vaginal,postpartum only,34,2915,42.142857,1,nothing,0,113651
+76748,yes,Not EBF,269,feces,60,63,11199,111991,male,Quintile 5,vaginal,postpartum only,28,3765,39.57143,1,nothing,0,111991
+76855,NA,NA,280,milk,30,35,11459,114591,female,Quintile 4,csection,both intrapartum and postpartum,21,2400,40,0,nothing,0,114590
+76862,NA,NA,270,milk,60,49,11545,115451,male,Quintile 4,csection,both intrapartum and postpartum,26,2835,38.57143,1,nothing,0,115450
+76906,NA,NA,269,milk,60,56,11199,111991,male,Quintile 5,vaginal,postpartum only,28,3765,39.57143,1,nothing,0,111990
+76991,yes,Not EBF,280,feces,30,35,11459,114591,female,Quintile 4,csection,both intrapartum and postpartum,21,2400,40,0,nothing,0,114591
+77168,no,EBF,269,feces,30,40,10455,104551,female,Quintile 5,csection,postpartum only,28,2665,38.42857,1,boil_strain,0,104551
+77336,NA,NA,270,milk,60,60,11775,117751,female,Quintile 4,vaginal,postpartum only,34,2815,38.57143,1,boil_strain,0,117750
+77477,NA,NA,259,milk,60,60,11187,111871,male,Quintile 5,csection,postpartum only,32,2930,37,1,filter,1,111870
+77696,yes,Not EBF,280,feces,60,60,10395,103951,male,Quintile 5,csection,postpartum only,32,2795,40,1,boil_strain,0,103951
+77804,NA,NA,280,milk,60,60,10395,103951,male,Quintile 5,csection,postpartum only,32,2795,40,1,boil_strain,0,103950
+78041,NA,NA,269,milk,60,60,11199,111991,male,Quintile 5,vaginal,postpartum only,28,3765,39.57143,1,nothing,0,111990
+78076,no,Not EBF,285,feces,60,67,12323,123231,female,Quintile 4,vaginal,postpartum only,35,3840,40.714287,1,nothing,0,123231
+78682,NA,NA,270,milk,60,60,11545,115451,male,Quintile 4,csection,both intrapartum and postpartum,26,2835,38.57143,1,nothing,0,115450
+78954,NA,NA,285,milk,60,67,12323,123231,female,Quintile 4,vaginal,postpartum only,35,3840,40.714287,1,nothing,0,123230
+79337,NA,NA,287,milk,60,60,11705,117051,female,Quintile 5,vaginal,postpartum only,18,2980,41,1,boil_filter_strain,1,117050
+79418,NA,NA,266,milk,60,60,11438,114381,male,Quintile 4,csection,postpartum only,20,3265,38,NA,boil,0,114380
+79531,yes,Not EBF,265,feces,60,60,12258,122581,female,Quintile 4,csection,postpartum only,20,3840,37.857143,0,boil_strain,0,122581
+80276,no,Not EBF,270,feces,30,43,10268,102681,male,Quintile 4,csection,postpartum only,24,3190,38.57143,1,boil_filter,1,102681
+80653,NA,NA,265,milk,60,60,12258,122581,female,Quintile 4,csection,postpartum only,20,3840,37.857143,0,boil_strain,0,122580
+81774,no,Not EBF,278,feces,60,67,10058,100581,male,Quintile 5,vaginal,postpartum only,24,3250,39.714287,1,boil,0,100581
+81905,NA,NA,252,milk,60,62,11196,111961,female,Quintile 3,vaginal,postpartum only,28,2430,36,1,filter,1,111960
+82004,no,Not EBF,252,feces,60,62,11196,111961,female,Quintile 3,vaginal,postpartum only,28,2430,36,1,filter,1,111961
+82429,NA,NA,278,milk,60,67,10058,100581,male,Quintile 5,vaginal,postpartum only,24,3250,39.714287,1,boil,0,100580
+82442,NA,NA,275,milk,60,60,10690,106901,female,Quintile 3,csection,both intrapartum and postpartum,30,3500,39.285713,1,nothing,0,106900
+82621,NA,NA,282,milk,60,67,11339,113391,female,Quintile 2,vaginal,postpartum only,23,3135,40.285713,1,filter,1,113390
+82729,yes,EBF,266,feces,90,78,11438,114381,male,Quintile 4,csection,postpartum only,20,3265,38,NA,boil,0,114381
+83616,no,EBF,273,feces,180,180,10571,105711,female,Quintile 5,csection,postpartum only,30,3140,39,1,boil_filter,1,105711
+92044,NA,NA,271,milk,60,66,11112,111121,female,Quintile 1,csection,postpartum only,30,2620,38.714287,1,boil,0,111120
+92192,yes,Not EBF,266,feces,180,184,10428,104281,male,Quintile 1,vaginal,postpartum only,27,2805,38,1,boil_filter,1,104281
+93126,no,EBF,266,feces,90,78,10077,100771,female,Quintile 5,csection,postpartum only,19,2680,38,1,boil_filter_strain,1,100771
+93724,no,EBF,270,feces,180,181,12179,121791,male,Quintile 4,csection,both intrapartum and postpartum,25,3240,38.57143,1,nothing,0,121791
+93742,yes,EBF,266,feces,90,91,11438,114381,male,Quintile 4,csection,postpartum only,20,3265,38,NA,boil,0,114381
+93750,yes,EBF,291,feces,90,94,12038,120381,female,Quintile 4,csection,postpartum only,30,2210,36.714287,0,boil_strain,0,120381
+93840,yes,Not EBF,265,feces,90,90,12258,122581,female,Quintile 4,csection,postpartum only,20,3840,37.857143,0,boil_strain,0,122581
+93938,no,Not EBF,273,feces,180,180,12281,122811,female,Quintile 4,csection,both intrapartum and postpartum,28,2735,39,1,boil_strain,0,122811
+94115,yes,Not EBF,270,feces,180,180,10254,102541,male,Quintile 4,vaginal,postpartum only,20,2470,38.57143,1,nothing,0,102541
+94116,yes,Not EBF,280,feces,90,90,10395,103951,male,Quintile 5,csection,postpartum only,32,2795,40,1,boil_strain,0,103951
+94599,no,EBF,270,feces,90,90,11545,115451,male,Quintile 4,csection,both intrapartum and postpartum,26,2835,38.57143,1,nothing,0,115451
+95156,yes,Not EBF,272,feces,180,194,10163,101631,male,Quintile 3,vaginal,postpartum only,19,2753,38.857143,1,nothing,0,101631
+95284,no,Not EBF,259,feces,90,97,11187,111871,male,Quintile 5,csection,postpartum only,32,2930,37,1,filter,1,111871
+95512,no,Not EBF,269,feces,90,104,10455,104551,female,Quintile 5,csection,postpartum only,28,2665,38.42857,1,boil_strain,0,104551
+95523,yes,Not EBF,295,feces,180,180,11365,113651,male,Quintile 1,vaginal,postpartum only,34,2915,42.142857,1,nothing,0,113651
+95574,yes,Not EBF,279,feces,180,180,10437,104371,female,Quintile 5,vaginal,both intrapartum and postpartum,21,2550,39.857143,1,nothing,0,104371
+95604,yes,Not EBF,269,feces,90,100,11199,111991,male,Quintile 5,vaginal,postpartum only,28,3765,39.57143,1,nothing,0,111991
+95665,NA,NA,280,milk,90,75,11459,114591,female,Quintile 4,csection,both intrapartum and postpartum,21,2400,40,0,nothing,0,114590
+96259,NA,NA,280,milk,60,55,11459,114591,female,Quintile 4,csection,both intrapartum and postpartum,21,2400,40,0,nothing,0,114590
+96816,yes,EBF,285,feces,180,180,11500,115001,female,Quintile 5,csection,both intrapartum and postpartum,26,2520,40.714287,1,nothing,0,115001
+97985,NA,NA,266,milk,90,78,10077,100771,female,Quintile 5,csection,postpartum only,19,2680,38,1,boil_filter_strain,1,100770
+98420,yes,Not EBF,266,feces,180,177,10137,101371,female,Quintile 3,vaginal,postpartum only,25,3360,38,0,boil_filter,1,101371
+98559,no,EBF,282,feces,90,90,11339,113391,female,Quintile 2,vaginal,postpartum only,23,3135,40.285713,1,filter,1,113391
+98870,no,EBF,287,feces,90,97,11705,117051,female,Quintile 5,vaginal,postpartum only,18,2980,41,1,boil_filter_strain,1,117051
+98913,yes,Not EBF,273,feces,180,181,10734,107341,male,Quintile 5,vaginal,postpartum only,28,4000,39,0,boil_filter,1,107341
+98920,yes,Not EBF,266,feces,180,180,12085,120851,male,Quintile 4,csection,both intrapartum and postpartum,24,3000,38,1,boil,0,120851
+99077,yes,Not EBF,286,feces,180,185,10228,102281,female,Quintile 1,vaginal,postpartum only,18,3060,40.857143,0,boil,0,102281
+99362,yes,Not EBF,278,feces,180,180,11935,119351,male,Quintile 3,csection,postpartum only,32,2720,39.714287,0,boil,0,119351
+99383,no,EBF,266,feces,180,182,11040,110401,female,Quintile 2,csection,both intrapartum and postpartum,32,3100,38,1,boil,0,110401
