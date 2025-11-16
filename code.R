@@ -1,5 +1,5 @@
 # set wd
-setwd("~/Desktop/manuscript_gates_sepsis_obs")
+setwd("")
 
 library(tidyverse)
 library(mixOmics)
@@ -52,14 +52,14 @@ plotAnnotatedStatic <- function(annotated, legend_setting = "bottom"){
 }
 
 # Read in data
-feature_table <- read_csv("data/obs_others_iimn_fbmn_quant.csv")
+feature_table <- read_csv("obs_others_iimn_fbmn_quant.csv")
 colnames(feature_table)[3] <- "RT"
-metadata <- read_csv("data/qiita_metadata.csv") 
-sequence_fecal <- read_csv("data/sequence_stool_plasma.csv")
-sequence_milk <- read_csv("data/sequence_milk.csv")
+metadata <- read_csv("qiita_metadata.csv") 
+sequence_fecal <- read_csv("sequence_stool_plasma.csv")
+sequence_milk <- read_csv("sequence_milk.csv")
 sequence <- rbind(sequence_fecal, sequence_milk)
 
-annotations <- read.delim("data/merged_results_with_gnps_all_libs_obs.tsv") %>%
+annotations <- read.delim("merged_results_with_gnps_all_libs_obs.tsv") %>%
   dplyr::filter(!str_detect(pattern = "REFRAME", LibraryName)) # remove drug library
 annotations$X.Scan. <- as.character(annotations$X.Scan.)
 
@@ -376,7 +376,7 @@ sample_milk <- metadata_metabolomics %>% dplyr::filter(str_detect(pattern = "mil
 
 ##### BILE ACIDS VALIDATION #####
 
-BA_query <- read.delim("data/Gates_postFBMNvalidation_bileacids_2percent.tsv")
+BA_query <- read.delim("Gates_postFBMNvalidation_bileacids_2percent.tsv")
 names(BA_query)[names(BA_query) == "X.Scan."] <- "Feature"
 BA_query_filter <- BA_query %>% 
   dplyr::filter(str_detect(pattern = "Did not pass", query_validation)) %>% 
@@ -497,8 +497,8 @@ VIPs_milk_secretor_Load <- VIPs_milk_secretor_select %>%
 #write_csv(x = VIPs_milk_secretor_Load2, file = "Human_milk_Secretor_status_VIP.csv")
 
 # Check top most relevant features
-VIPs_milk_seretoryes <- VIPs_milk_secretor_Load %>% dplyr::filter(GroupContrib == "1") %>% head(70)
-VIPs_milk_seretorno <- VIPs_milk_secretor_Load %>% dplyr::filter(GroupContrib == "0") %>% head(70)
+VIPs_milk_seretoryes <- VIPs_milk_secretor_Load %>% dplyr::filter(GroupContrib == "1") %>% head(100)
+VIPs_milk_seretorno <- VIPs_milk_secretor_Load %>% dplyr::filter(GroupContrib == "0") %>% head(100)
 
 data_milk_ratio_hmo <- data_milk %>%
   dplyr::select("SampleID", VIPs_milk_seretoryes$ID, VIPs_milk_seretorno$ID) %>%
@@ -530,13 +530,15 @@ plot_ratio_milk_secretor_time <- data_milk_ratio_hmo %>%
   theme(plot.title = element_text(size = 9),axis.title = element_text(size = 8),
         axis.text = element_text(size = 6))
 
+#ggsave(plot = plot_ratio_milk_secretor_time, filename = "plot_ratio_milk_secretor_time.svg", device = "svg", dpi = "retina", width = 2.4, height = 2.5)
+
 # Linear mixed effect model
 model <- data_milk_ratio_hmo %>% 
   dplyr::filter(hmo_Secretor %in% c(0,1)) %>% 
   lmer(formula = Ratio ~ hmo_Secretor + infant_age_days + (1|host_subject_id))
 summary(model)
 
-##### CREATE BOXPLOT FOR FEAT 583 (2FL M/Z 471.1709) AND 769 (LDFT, M/Z 657.2211)
+##### CREATE BOXPLOT FOR FEAT 583 (2FL M/Z 471.1709) AND 769 (DFLac, M/Z 657.2211)
 
 # 2FL
 data_milk_feat_2FL <- data_milk %>% 
@@ -600,14 +602,14 @@ p_raw <- c(p1, p2, p3)
 p_adj <- p.adjust(p_raw, method = "BH") 
 #ggsave(plot = combined_2FL_lactation_stages, filename = "combined_2FL_lactation_stages.svg", device = "svg", dpi = "retina", width = 2.6, height = 2.3)
 
-# LDFT
-data_milk_feat_LDFT <- data_milk %>% 
+# DFLac
+data_milk_feat_DFLac <- data_milk %>% 
   dplyr::select(SampleID, `769`, `583`) %>%
   dplyr::mutate(Log_feat = log2(`769` + 1)) %>%
   dplyr::mutate(Log_2FL = log2(`583` + 1)) %>%
   left_join(metadata_metabolomics, by = "SampleID")
 
-data_milk_feat_LDFT_colostrum <- data_milk_feat_LDFT %>% 
+data_milk_feat_DFLac_colostrum <- data_milk_feat_DFLac %>% 
   dplyr::select(host_subject_id, infant_age_days, Log_feat, Log_2FL, hmo_Secretor) %>%
   dplyr::filter(infant_age_days < 5) %>%
   group_by(host_subject_id) %>%
@@ -615,14 +617,14 @@ data_milk_feat_LDFT_colostrum <- data_milk_feat_LDFT %>%
   ungroup() %>% distinct(host_subject_id, .keep_all = TRUE) %>% 
   dplyr::filter(!hmo_Secretor == "NA")
 
-data_milk_feat_LDFT_colostrum_plot <- data_milk_feat_LDFT_colostrum %>% arrange(hmo_Secretor) %>%
+data_milk_feat_DFLac_colostrum_plot <- data_milk_feat_DFLac_colostrum %>% arrange(hmo_Secretor) %>%
   ggboxplot(x = "hmo_Secretor", y = "Log_feat", add = "jitter", legend = "none",
             add.params = list(color = "hmo_Secretor", alpha = 0.5), palette = palette_hmo_rev, 
             xlab = "Colostrum", ylab = "Log2(peak area)") + stat_compare_means() + ylim (-0.1, 22) +
   theme(plot.title = element_text(size = 9),axis.title = element_text(size = 8),
         axis.text = element_text(size = 6))
 
-data_milk_feat_LDFT_trans <- data_milk_feat_LDFT %>% 
+data_milk_feat_DFLac_trans <- data_milk_feat_DFLac %>% 
   dplyr::select(host_subject_id, infant_age_days, Log_feat, Log_2FL, hmo_Secretor) %>%
   dplyr::filter(infant_age_days >= 5 & infant_age_days < 16) %>%
   group_by(host_subject_id) %>%
@@ -630,14 +632,14 @@ data_milk_feat_LDFT_trans <- data_milk_feat_LDFT %>%
   ungroup() %>% distinct(host_subject_id, .keep_all = TRUE) %>% 
   dplyr::filter(!hmo_Secretor == "NA")
 
-data_milk_feat_LDFT_trans_plot <- data_milk_feat_LDFT_trans %>% arrange(hmo_Secretor) %>%
+data_milk_feat_DFLac_trans_plot <- data_milk_feat_DFLac_trans %>% arrange(hmo_Secretor) %>%
   ggboxplot(x = "hmo_Secretor", y = "Log_feat", add = "jitter", legend = "none",
             add.params = list(color = "hmo_Secretor", alpha = 0.5), palette = palette_hmo_rev,
             xlab = "Transitional", ylab = FALSE) + stat_compare_means() + ylim (-0.1, 22) +
   theme(plot.title = element_text(size = 9),axis.title = element_text(size = 8),
         axis.text = element_text(size = 6))
 
-data_milk_feat_LDFT_mature <- data_milk_feat_LDFT %>% 
+data_milk_feat_DFLac_mature <- data_milk_feat_DFLac %>% 
   dplyr::select(host_subject_id, infant_age_days, Log_feat, Log_2FL, hmo_Secretor) %>%
   dplyr::filter(infant_age_days >= 16 & infant_age_days < 90) %>%
   group_by(host_subject_id) %>%
@@ -645,7 +647,7 @@ data_milk_feat_LDFT_mature <- data_milk_feat_LDFT %>%
   ungroup() %>% distinct(host_subject_id, .keep_all = TRUE) %>% 
   dplyr::filter(!hmo_Secretor == "NA")
 
-data_milk_feat_LDFT_mature_plot <- data_milk_feat_LDFT_mature %>% arrange(hmo_Secretor) %>%
+data_milk_feat_DFLac_mature_plot <- data_milk_feat_DFLac_mature %>% arrange(hmo_Secretor) %>%
   ggboxplot(x = "hmo_Secretor", y = "Log_feat", add = "jitter", legend = "none",
             add.params = list(color = "hmo_Secretor", alpha = 0.5), palette = palette_hmo_rev,
             xlab = "Mature", ylab = FALSE) + stat_compare_means() +  ylim (-0.1, 22) +
@@ -653,19 +655,19 @@ data_milk_feat_LDFT_mature_plot <- data_milk_feat_LDFT_mature %>% arrange(hmo_Se
         axis.text = element_text(size = 6))
 
 
-combined_LDFT_lactation_stages <- ggarrange(data_milk_feat_LDFT_colostrum_plot, data_milk_feat_LDFT_trans_plot,
-                                           data_milk_feat_LDFT_mature_plot, nrow = 1)
+combined_DFLac_lactation_stages <- ggarrange(data_milk_feat_DFLac_colostrum_plot, data_milk_feat_DFLac_trans_plot,
+                                           data_milk_feat_DFLac_mature_plot, nrow = 1)
 
-p1 <- compare_means(Log_feat ~ hmo_Secretor, data = data_milk_feat_LDFT_colostrum)$p
-p2 <- compare_means(Log_feat ~ hmo_Secretor, data = data_milk_feat_LDFT_trans)$p
-p3 <- compare_means(Log_feat ~ hmo_Secretor, data = data_milk_feat_LDFT_mature)$p
+p1 <- compare_means(Log_feat ~ hmo_Secretor, data = data_milk_feat_DFLac_colostrum)$p
+p2 <- compare_means(Log_feat ~ hmo_Secretor, data = data_milk_feat_DFLac_trans)$p
+p3 <- compare_means(Log_feat ~ hmo_Secretor, data = data_milk_feat_DFLac_mature)$p
 p_raw <- c(p1, p2, p3)
 p_adj <- p.adjust(p_raw, method = "BH") 
-#ggsave(plot = combined_LDFT_lactation_stages, filename = "combined_LDFT_lactation_stages.svg", device = "svg", dpi = "retina", width = 2.6, height = 2.3)
+#ggsave(plot = combined_DFLac_lactation_stages, filename = "combined_DFLac_lactation_stages.svg", device = "svg", dpi = "retina", width = 2.6, height = 2.3)
 
 
 ### Targeted HMO ###
-hmo_data <- read_csv("data/SEPSIS_HMO_Report_Obs_20221201.csv") %>% 
+hmo_data <- read_csv("SEPSIS_HMO_Report_Obs_20221201.csv") %>% 
   dplyr::mutate(SampleID = as.character(SampleID)) %>%
   dplyr::left_join(metadata_metabolomics) %>% 
   dplyr::mutate(hmo_Secretor = as.factor(hmo_Secretor))
@@ -1448,8 +1450,6 @@ plot_data_milk_fructose <- ggboxplot(data = data_milk_fructose, x = "Stage", y =
 
 
 
-
-
 #########
 # STOOL #
 #########
@@ -2170,7 +2170,7 @@ p_adj <- p.adjust(p_raw, method = "BH")
 ##################
 # PIECHART DISCRIMINANT FEATURES BY MATERNAL SECRETOR STATUS - STOOL
 ##################
-canopus <- read.delim("data/canopus_formula_summary.tsv")
+canopus <- read.delim("canopus_formula_summary.tsv")
 canopus$mappingFeatureId <- as.character(canopus$mappingFeatureId)
 
 VIPs_stool_secretor_Load_canopus <- VIPs_stool_secretor_Load %>% 
@@ -2566,6 +2566,22 @@ data_acetylcarnitine_10_plot <- data_acetylcarnitine_10 %>% arrange(water_treatm
   theme(plot.title = element_text(size = 9),axis.title = element_text(size = 8),
         axis.text = element_text(size = 6))
 
+data_acetylcarnitine_30 <- data_stool_acetylcarnitine %>% 
+  dplyr::select(host_subject_id, infant_age_days, Log_acetylcarnitine, water_treatment) %>%
+  dplyr::filter(infant_age_days > 13 & infant_age_days < 29) %>%
+  group_by(host_subject_id) %>%
+  dplyr::filter(Log_acetylcarnitine == max(Log_acetylcarnitine, na.rm = TRUE)) %>%
+  ungroup() %>% distinct(host_subject_id, .keep_all = TRUE)
+
+data_acetylcarnitine_30_plot <- data_acetylcarnitine_30 %>% arrange(water_treatment) %>%
+  mutate(water_treatment = factor(water_treatment, levels = c("untreated", "treated"))) %>%
+  ggboxplot(x = "water_treatment", y = "Log_acetylcarnitine", add = "jitter", legend = "none",
+            add.params = list(color = "water_treatment", alpha = 0.5), palette = palette_wat_rev, 
+            xlab = "Days (14-28)", ylab = "Log2(peak area)") + stat_compare_means() + #ylim (-0.1, 25) +
+  theme(plot.title = element_text(size = 9),axis.title = element_text(size = 8),
+        axis.text = element_text(size = 6))
+
+
 # FEAT 1425 BUTYRYLCARNITINE 
 data_stool_butyrylcarnitine <- data_stool %>% 
   dplyr::select(SampleID, `1425`) %>% 
@@ -2587,6 +2603,21 @@ butyrylcarnitine_10_plot <- butyrylcarnitine_10 %>% arrange(water_treatment) %>%
   theme(plot.title = element_text(size = 9),axis.title = element_text(size = 8),
         axis.text = element_text(size = 6))
 
+butyrylcarnitine_30 <- data_stool_butyrylcarnitine %>% 
+  dplyr::select(host_subject_id, infant_age_days, Log_butyrylcarnitine, water_treatment) %>%
+  dplyr::filter(infant_age_days > 13 & infant_age_days < 29) %>%
+  group_by(host_subject_id) %>%
+  dplyr::filter(Log_butyrylcarnitine == max(Log_butyrylcarnitine, na.rm = TRUE)) %>%
+  ungroup() %>% distinct(host_subject_id, .keep_all = TRUE)
+
+butyrylcarnitine_30_plot <- butyrylcarnitine_30 %>% arrange(water_treatment) %>%
+  mutate(water_treatment = factor(water_treatment, levels = c("untreated", "treated"))) %>%
+  ggboxplot(x = "water_treatment", y = "Log_butyrylcarnitine", add = "jitter", legend = "none",
+            add.params = list(color = "water_treatment", alpha = 0.5), palette = palette_wat_rev, 
+            xlab = "Days (14-28)", ylab = "Log2(peak area)") + stat_compare_means() + #ylim (-0.1, 25) +
+  theme(plot.title = element_text(size = 9),axis.title = element_text(size = 8),
+        axis.text = element_text(size = 6))
+
 # FEAT 2792 - VALERYLCARNITINE 
 data_stool_valerylcarnitine <- data_stool %>% 
   dplyr::select(SampleID, `2792`) %>%
@@ -2601,6 +2632,21 @@ data_stool_valerylcarnitine_10 <- data_stool_valerylcarnitine %>%
   ungroup() %>% distinct(host_subject_id, .keep_all = TRUE)
 
 data_stool_valerylcarnitine_10_plot <- data_stool_valerylcarnitine_10 %>% arrange(water_treatment) %>%
+  mutate(water_treatment = factor(water_treatment, levels = c("untreated", "treated"))) %>%
+  ggboxplot(x = "water_treatment", y = "Log_valerylcarnitine", add = "jitter", legend = "none",
+            add.params = list(color = "water_treatment", alpha = 0.5), palette = palette_wat_rev, 
+            xlab = "Days (0-7)", ylab = "Log2(peak area)") + stat_compare_means() + ylim (-0.1, 25) +
+  theme(plot.title = element_text(size = 9),axis.title = element_text(size = 8),
+        axis.text = element_text(size = 6))
+
+data_stool_valerylcarnitine_30 <- data_stool_valerylcarnitine %>% 
+  dplyr::select(host_subject_id, infant_age_days, Log_valerylcarnitine, water_treatment) %>%
+  dplyr::filter(infant_age_days > 13 & infant_age_days < 29) %>%
+  group_by(host_subject_id) %>%
+  dplyr::filter(Log_valerylcarnitine == max(Log_valerylcarnitine, na.rm = TRUE)) %>%
+  ungroup() %>% distinct(host_subject_id, .keep_all = TRUE)
+
+data_stool_valerylcarnitine_30_plot <- data_stool_valerylcarnitine_30 %>% arrange(water_treatment) %>%
   mutate(water_treatment = factor(water_treatment, levels = c("untreated", "treated"))) %>%
   ggboxplot(x = "water_treatment", y = "Log_valerylcarnitine", add = "jitter", legend = "none",
             add.params = list(color = "water_treatment", alpha = 0.5), palette = palette_wat_rev, 
@@ -3305,9 +3351,9 @@ upset(
 ##################
 ### JOINT ANALYSIS ###
 ##################
-joint_table <- read_csv("data/correlation_table_30day.csv")
-taxonomy <- read_tsv("data/taxonomy.tsv")
-filtered_taxa <- read_csv("data/micro_shortlist_tempted-jointRPCA-ancombc2_overlap.csv")
+joint_table <- read_csv("correlation_table_30day.csv")
+taxonomy <- read_tsv("taxonomy.tsv")
+filtered_taxa <- read_csv("micro_shortlist_tempted-jointRPCA-ancombc2_overlap.csv")
 filtered_taxa <- filtered_taxa %>%
   dplyr::rename(featureid = "Feature ID")
 
@@ -3574,5 +3620,4 @@ VIP_milk_feces_hmo <- VIPs_milk_secretor_Load_cyt %>%
   left_join(canopus, by =c ("ID" = "mappingFeatureId"))
 
 #write_csv(x = VIP_milk_feces_hmo, file = "VIP_Milk_Feces_HMO_Canopus.csv")
-
 
